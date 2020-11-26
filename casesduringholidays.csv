@@ -1,0 +1,424 @@
+Memorial Day,Province_State,Country_Region,Confirmed,Deaths,Recovered
+,Alabama,US,15309,566,7951
+,Alaska,US,408,10,361
+,American Samoa,US,0,0,
+,Arizona,US,16575,807,4204
+,Arkansas,US,6029,117,4249
+,California,US,96400,3769,
+,Colorado,US,24269,1333,3666
+,Connecticut,US,40873,3742,7127
+,Delaware,US,8965,332,4693
+,Diamond Princess,US,49,0,
+,District of Columbia,US,8225,440,1080
+,Florida,US,51746,2252,
+,Georgia,US,43400,1848,
+,Grand Princess,US,103,3,
+,Guam,US,166,5,138
+,Hawaii,US,643,17,591
+,Idaho,US,2626,79,1755
+,Illinois,US,112017,4885,
+,Indiana,US,31715,1984,
+,Iowa,US,17557,456,9377
+,Kansas,US,9125,207,493
+,Kentucky,US,8571,391,3102
+,Louisiana,US,37809,2691,28700
+,Maine,US,2074,78,1290
+,Maryland,US,47152,2302,3329
+,Massachusetts,US,93271,6416,
+,Michigan,US,54881,5241,33168
+,Minnesota,US,21315,890,14816
+,Mississippi,US,13458,635,9401
+,Missouri,US,12476,689,
+,Montana,US,479,16,441
+,Nebraska,US,12362,147,
+,Nevada,US,7956,394,359
+,New Hampshire,US,4197,210,2204
+,New Jersey,US,155092,11147,25253
+,New Mexico,US,7026,320,2464
+,New York,US,362764,29229,64280
+,North Carolina,US,24057,790,14954
+,North Dakota,US,2457,54,1551
+,Northern Mariana Islands,US,22,2,13
+,Ohio,US,32477,1987,
+,Oklahoma,US,6090,313,4714
+,Oregon,US,3949,148,1376
+,Pennsylvania,US,71925,5146,40911
+,Puerto Rico,US,3260,129,
+,Rhode Island,US,14065,608,1119
+,South Carolina,US,10178,440,6063
+,South Dakota,US,4586,50,3415
+,Tennessee,US,20535,338,13073
+,Texas,US,56420,1534,35292
+,Utah,US,8521,98,5218
+,Vermont,US,962,54,843
+,Virgin Islands,US,69,6,61
+,Virginia,US,37727,1208,5145
+,Washington,US,20065,1070,
+,West Virginia,US,1774,72,1135
+,Wisconsin,US,15584,514,9207
+,Wyoming,US,843,12,575
+,,,,,
+Independence Day,Province_State,Country_Region,Confirmed,Deaths,Recovered
+,Alabama,US,42255,1006,22082
+,Alaska,US,1060,15,539
+,American Samoa,US,0,0,
+,Arizona,US,91872,1798,10478
+,Arkansas,US,22622,281,16164
+,California,US,250514,6315,
+,Colorado,US,33612,1701,4541
+,Connecticut,US,46717,4335,8210
+,Delaware,US,11923,512,6692
+,Diamond Princess,US,49,0,
+,District of Columbia,US,10435,555,1497
+,Florida,US,178594,3684,
+,Georgia,US,90493,2857,
+,Grand Princess,US,103,3,
+,Guam,US,280,5,179
+,Hawaii,US,975,19,746
+,Idaho,US,6994,93,2801
+,Illinois,US,145750,7005,
+,Indiana,US,46915,2681,35756
+,Iowa,US,30463,721,24338
+,Kansas,US,15659,282,842
+,Kentucky,US,16376,585,4747
+,Louisiana,US,63289,3278,43026
+,Maine,US,3373,105,2731
+,Maryland,US,68961,3223,5023
+,Massachusetts,US,109628,8149,
+,Michigan,US,72175,6215,51099
+,Minnesota,US,37624,1503,32347
+,Mississippi,US,29684,1103,19388
+,Missouri,US,23160,1047,
+,Montana,US,1128,23,678
+,Nebraska,US,19660,284,14022
+,Nevada,US,20718,528,727
+,New Hampshire,US,5857,376,4508
+,New Jersey,US,172742,15164,30464
+,New Mexico,US,12776,511,5627
+,New York,US,395872,32137,70794
+,North Carolina,US,70262,1419,45538
+,North Dakota,US,3722,80,3266
+,Northern Mariana Islands,US,31,2,19
+,Ohio,US,55257,2903,39423
+,Oklahoma,US,15069,398,11519
+,Oregon,US,9636,209,2759
+,Pennsylvania,US,93392,6746,69217
+,Puerto Rico,US,7683,154,
+,Rhode Island,US,16991,960,1657
+,South Carolina,US,41532,793,16994
+,South Dakota,US,6978,97,6049
+,Tennessee,US,48712,633,29591
+,Texas,US,185847,2597,93572
+,Utah,US,23866,181,13408
+,Vermont,US,1236,56,967
+,Virgin Islands,US,98,6,75
+,Virginia,US,64393,1845,8711
+,Washington,US,34778,1352,
+,West Virginia,US,3126,93,2396
+,Wisconsin,US,30317,796,24043
+,Wyoming,US,1582,20,1154
+,,,,,
+,,,,,
+Labor Day,Province_State,Country_Region,Confirmed,Deaths,Recovered
+,Alabama,US,132221,2276,51154
+,Alaska,US,5793,42,2323
+,American Samoa,US,0,0,
+,Arizona,US,205964,5219,31866
+,Arkansas,US,65727,908,58757
+,California,US,740965,13758,
+,Colorado,US,59484,1973,6057
+,Connecticut,US,53365,4468,9049
+,Delaware,US,18249,609,9847
+,Diamond Princess,US,49,0,
+,District of Columbia,US,14315,611,11366
+,Florida,US,648269,11871,
+,Georgia,US,283807,6044,
+,Grand Princess,US,103,3,
+,Guam,US,1619,14,744
+,Hawaii,US,9959,86,2991
+,Idaho,US,33738,385,16554
+,Illinois,US,252884,8398,
+,Indiana,US,100394,3368,77015
+,Iowa,US,70537,1170,49884
+,Kansas,US,46337,483,1796
+,Kentucky,US,53064,996,10648
+,Louisiana,US,153177,5105,134432
+,Maine,US,4701,134,4076
+,Maryland,US,112883,3804,7112
+,Massachusetts,US,122791,9133,105769
+,Michigan,US,118403,6810,80678
+,Minnesota,US,81225,1912,73403
+,Mississippi,US,87130,2585,67918
+,Missouri,US,95406,1687,
+,Montana,US,8316,118,6246
+,Nebraska,US,35975,404,27710
+,Nevada,US,71967,1393,1853
+,New Hampshire,US,7476,433,6805
+,New Jersey,US,194390,15991,34202
+,New Mexico,US,26144,807,13530
+,New York,US,440021,33002,75471
+,North Carolina,US,177919,2897,156652
+,North Dakota,US,13801,156,11080
+,Northern Mariana Islands,US,59,2,29
+,Ohio,US,131336,4276,108578
+,Oklahoma,US,64220,853,53414
+,Oregon,US,28190,482,5198
+,Pennsylvania,US,144540,7771,114687
+,Puerto Rico,US,35375,477,
+,Rhode Island,US,22243,1055,2147
+,South Carolina,US,125607,2907,51431
+,South Dakota,US,15300,173,12235
+,Tennessee,US,165109,1869,146213
+,Texas,US,662659,13703,543412
+,Utah,US,55033,423,46468
+,Vermont,US,1651,58,1465
+,Virgin Islands,US,1190,17,1069
+,Virginia,US,127571,2684,15742
+,Washington,US,77545,1953,
+,West Virginia,US,11575,248,8581
+,Wisconsin,US,81760,1168,72478
+,Wyoming,US,4032,42,3416
+,,,,,
+,,,,,
+Colombus Day,Province_State,Country_Region,Confirmed,Deaths,Recovered
+,Alabama,US,166514,2665,71240
+,Alaska,US,9877,60,5802
+,American Samoa,US,0,0,
+,Arizona,US,226050,5759,37287
+,Arkansas,US,93487,1586,84055
+,California,US,857913,16586,
+,Colorado,US,79037,2116,6835
+,Connecticut,US,61377,4532,9522
+,Delaware,US,22289,656,11493
+,Diamond Princess,US,49,0,
+,District of Columbia,US,16022,637,12539
+,Florida,US,736024,15412,
+,Georgia,US,332311,7429,
+,Grand Princess,US,103,3,
+,Guam,US,3170,60,2189
+,Hawaii,US,13514,169,10750
+,Idaho,US,48663,510,24304
+,Illinois,US,324918,9243,
+,Indiana,US,136555,3795,102769
+,Iowa,US,100453,1481,76611
+,Kansas,US,69304,787,2301
+,Kentucky,US,80930,1255,13615
+,Louisiana,US,172119,5669,157873
+,Maine,US,5752,143,4998
+,Maryland,US,131861,4003,7738
+,Massachusetts,US,139663,9617,116364
+,Michigan,US,151396,7225,104271
+,Minnesota,US,113439,2197,101376
+,Mississippi,US,105228,3101,94165
+,Missouri,US,146154,2424,
+,Montana,US,19125,212,11481
+,Nebraska,US,52839,522,36446
+,Nevada,US,86348,1664,2270
+,New Hampshire,US,9208,456,8002
+,New Jersey,US,214097,16175,35464
+,New Mexico,US,33362,915,18680
+,New York,US,475315,33482,77631
+,North Carolina,US,232747,3773,206471
+,North Dakota,US,27736,345,22846
+,Northern Mariana Islands,US,77,2,29
+,Ohio,US,170179,5005,143826
+,Oklahoma,US,100184,1104,85265
+,Oregon,US,37467,599,5870
+,Pennsylvania,US,177819,8347,140376
+,Puerto Rico,US,54234,735,24488
+,Rhode Island,US,26294,1130,2422
+,South Carolina,US,158055,3559,78431
+,South Dakota,US,28925,288,22575
+,Tennessee,US,217682,2774,194836
+,Texas,US,827750,16999,705189
+,Utah,US,86832,522,63961
+,Vermont,US,1876,58,1664
+,Virgin Islands,US,1325,20,1289
+,Virginia,US,159570,3361,18539
+,Washington,US,93035,2190,
+,West Virginia,US,18281,388,13318
+,Wisconsin,US,152192,1474,121204
+,Wyoming,US,7802,54,6058
+,,,,,
+,,,,,
+Election Day,Province_State,Country_Region,Confirmed,Deaths,Recovered
+,Alabama,US,197504,2987,81005
+,Alaska,US,17448,84,7113
+,American Samoa,US,0,0,
+,Arizona,US,249818,6020,41776
+,Arkansas,US,114519,2003,102666
+,California,US,945401,17745,
+,Colorado,US,114709,2311,8106
+,Connecticut,US,74843,4635,9800
+,Delaware,US,25426,712,13497
+,Diamond Princess,US,49,0,
+,District of Columbia,US,17524,647,13517
+,Florida,US,816700,16890,
+,Georgia,US,394526,8479,
+,Grand Princess,US,103,3,
+,Guam,US,4812,80,3221
+,Hawaii,US,15318,219,11868
+,Idaho,US,67024,647,30525
+,Illinois,US,436265,10161,
+,Indiana,US,188066,4439,125661
+,Iowa,US,134326,1780,95500
+,Kansas,US,93430,1057,2682
+,Kentucky,US,111379,1503,19043
+,Louisiana,US,184769,5951,168634
+,Maine,US,6925,148,5632
+,Maryland,US,147766,4162,8223
+,Massachusetts,US,161585,10035,127054
+,Michigan,US,207763,7761,121093
+,Minnesota,US,157096,2553,134227
+,Mississippi,US,121509,3384,105839
+,Missouri,US,193441,3075,
+,Montana,US,35159,399,21990
+,Nebraska,US,74060,660,45108
+,Nevada,US,103025,1807,2462
+,New Hampshire,US,11448,483,9515
+,New Jersey,US,242825,16371,37394
+,New Mexico,US,49240,1045,21758
+,New York,US,513689,33773,79990
+,North Carolina,US,280377,4457,246318
+,North Dakota,US,47187,555,38236
+,Northern Mariana Islands,US,96,2,29
+,Ohio,US,226138,5373,174130
+,Oklahoma,US,126526,1375,109234
+,Oregon,US,46460,701,5870
+,Pennsylvania,US,220074,8842,161153
+,Puerto Rico,US,68943,842,29763
+,Rhode Island,US,34543,1212,2825
+,South Carolina,US,179952,3968,92763
+,South Dakota,US,48854,446,35041
+,Tennessee,US,266357,3454,237736
+,Texas,US,961514,18631,792286
+,Utah,US,119375,620,87211
+,Vermont,US,2237,58,1833
+,Virgin Islands,US,1385,22,1327
+,Virginia,US,184679,3666,20306
+,Washington,US,110011,2400,
+,West Virginia,US,25596,471,19617
+,Wisconsin,US,251031,2102,185241
+,Wyoming,US,14621,93,9312
+,,,,,
+,,,,,
+Halloween,Province_State,Country_Region,Confirmed,Deaths,Recovered
+,Alabama,US,193613,2967,81005
+,Alaska,US,16355,82,7099
+,American Samoa,US,0,0,
+,Arizona,US,245946,5979,41159
+,Arkansas,US,112190,1925,100067
+,California,US,932143,17659,
+,Colorado,US,107350,2285,7854
+,Connecticut,US,71207,4616,9800
+,Delaware,US,24951,708,13188
+,Diamond Princess,US,49,0,
+,District of Columbia,US,17266,646,13348
+,Florida,US,802547,16761,
+,Georgia,US,360790,7979,
+,Grand Princess,US,103,3,
+,Guam,US,4628,79,2666
+,Hawaii,US,15071,219,11738
+,Idaho,US,64608,629,29556
+,Illinois,US,416547,10040,
+,Indiana,US,179358,4332,121813
+,Iowa,US,128510,1716,93200
+,Kansas,US,86943,1025,2659
+,Kentucky,US,107219,1485,18468
+,Louisiana,US,182270,5919,168634
+,Maine,US,6662,147,5517
+,Maryland,US,145281,4147,8181
+,Massachusetts,US,158576,9991,127054
+,Michigan,US,197406,7699,121093
+,Minnesota,US,148472,2511,127362
+,Mississippi,US,120160,3334,101385
+,Missouri,US,185992,3037,
+,Montana,US,32801,375,21353
+,Nebraska,US,70732,652,43952
+,Nevada,US,100761,1777,2409
+,New Hampshire,US,11084,483,9263
+,New Jersey,US,237886,16350,37127
+,New Mexico,US,46490,1018,21491
+,New York,US,507543,33730,79717
+,North Carolina,US,274635,4378,231611
+,North Dakota,US,43916,524,35533
+,Northern Mariana Islands,US,92,2,29
+,Ohio,US,215697,5301,168884
+,Oklahoma,US,122762,1337,106292
+,Oregon,US,44921,689,5870
+,Pennsylvania,US,212791,8800,158100
+,Puerto Rico,US,66128,822,29464
+,Rhode Island,US,32874,1201,2763
+,South Carolina,US,176612,3935,90994
+,South Dakota,US,45992,425,31194
+,Tennessee,US,260672,3353,231887
+,Texas,US,941446,18463,782006
+,Utah,US,114656,604,84101
+,Vermont,US,2179,58,1800
+,Virgin Islands,US,1376,21,1320
+,Virginia,US,181190,3654,20008
+,Washington,US,107501,2366,
+,West Virginia,US,24460,459,18827
+,Wisconsin,US,237869,2031,175096
+,Wyoming,US,13298,87,8541
+,,,,,
+,,,,,
+Veterans Day,Province_State,Country_Region,Confirmed,Deaths,Recovered
+,Alabama,US,208637,3201,84471
+,Alaska,US,21331,96,7160
+,American Samoa,US,0,0,
+,Arizona,US,265163,6228,43990
+,Arkansas,US,126197,2126,110365
+,California,US,995575,18108,
+,Colorado,US,142402,2443,8846
+,Connecticut,US,84741,4716,9800
+,Delaware,US,27342,724,14380
+,Diamond Princess,US,49,0,
+,District of Columbia,US,18379,657,14036
+,Florida,US,858012,17300,
+,Georgia,US,413894,8806,
+,Grand Princess,US,103,3,
+,Guam,US,5654,91,3667
+,Hawaii,US,16437,222,11958
+,Idaho,US,77121,733,33330
+,Illinois,US,523840,10798,
+,Indiana,US,224374,4762,139444
+,Iowa,US,168453,1927,104226
+,Kansas,US,110918,1148,2913
+,Kentucky,US,127344,1604,23165
+,Louisiana,US,194702,6058,172210
+,Maine,US,8202,158,6226
+,Maryland,US,158423,4249,8313
+,Massachusetts,US,177541,10222,131646
+,Michigan,US,251872,8136,128981
+,Minnesota,US,194570,2810,157164
+,Mississippi,US,129394,3497,111430
+,Missouri,US,224664,3329,
+,Montana,US,42070,472,24594
+,Nebraska,US,89942,731,49761
+,Nevada,US,113411,1877,2560
+,New Hampshire,US,13152,492,10233
+,New Jersey,US,263495,16476,38586
+,New Mexico,US,59034,1158,23736
+,New York,US,540965,33961,81020
+,North Carolina,US,300561,4698,261719
+,North Dakota,US,57373,686,45031
+,Northern Mariana Islands,US,100,2,29
+,Ohio,US,267356,5623,191950
+,Oklahoma,US,142334,1470,119144
+,Oregon,US,52770,742,5870
+,Pennsylvania,US,248015,9136,172791
+,Puerto Rico,US,39120,901,34032
+,Rhode Island,US,39776,1243,3020
+,South Carolina,US,188995,4076,98621
+,South Dakota,US,58696,567,40668
+,Tennessee,US,293381,3761,259438
+,Texas,US,1035117,19461,831800
+,Utah,US,139720,678,97269
+,Vermont,US,2535,59,1947
+,Virgin Islands,US,1413,23,1357
+,Virginia,US,196506,3741,21863
+,Washington,US,120011,2482,
+,West Virginia,US,30201,553,21877
+,Wisconsin,US,301349,2457,219304
+,Wyoming,US,19374,127,11234
