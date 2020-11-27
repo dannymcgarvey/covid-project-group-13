@@ -11,6 +11,8 @@ output:
 ```{r setup, include=FALSE}
 # we can use this section here to load any packages that will be needed
 knitr::opts_chunk$set(echo = TRUE)
+covid_and_population_summary = read.csv(file = "casesPopbyCounty.csv")
+election_data = read.csv(file = "clean2020electiondata.csv")
 ```
 
 ### Group 13's Goals
@@ -19,11 +21,17 @@ Our group chose to analyze two different trends in the data from JHU's Covid Dat
 
 1. For our first hypothesis we wanted to test if major holidays or turning points contributed to a rise in the number of cases of coronavirus in the US.
 
-2. For our second hypothesis we wanted to analyze how a region's political affiliation impacted an individual's likelyhood to have contracted or been exposed to coronavirus.
+2. For our second hypothesis we wanted to analyze how a region's political affiliation impacted an individual's likelihood to have contracted or been exposed to coronavirus.
 
 ## Important Days and Case Increases
 
 Overview ...
+
+Following Key dates, is there a spike in the following 2-5 days after these events?
+
+- Timeline
+- Key dates
+- Correlation
 
 ```{r}
 #code, graphs, etc
@@ -35,8 +43,12 @@ Key takeaways
 
 Overview ...
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+- Scatter Plot
+- Linear Regression
+- Clustering
+
+```{}
+
 ```
 
 Key takeaways

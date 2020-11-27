@@ -4,3 +4,5 @@ Stat400 Final Project
 Daniel McGarvey
 
 Martin Blurton-Jones
+
+Joshua Brunk
