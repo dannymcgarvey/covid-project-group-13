@@ -1,0 +1,80 @@
+---
+title: "Covid Project Group 13"
+output:
+  html_document:
+    number_sections: yes
+    toc: yes  
+  pdf_document:
+    toc: yes
+---
+
+```{r setup, include=FALSE}
+library(dplyr)
+library(ggplot2)
+library(tidyverse)
+library(janitor)
+library(gganimate)
+library(gifski)
+library(png)
+library(ggrepel)
+library(scales)
+
+```
+
+### Group 13's Goals
+
+Our group chose to analyze two different trends in the data from JHU's Covid Dataset, both trying to evaluate correlation, but one looking at data over time, and the other as a summary to date.
+
+1. For our first hypothesis we wanted to test if major holidays or turning points contributed to a rise in the number of cases of coronavirus in the US.
+
+2. For our second hypothesis we wanted to analyze how a region's political affiliation impacted an individual's likelihood to have contracted or been exposed to coronavirus.
+
+## Important Days and Case Increases
+
+Overview ...
+
+Following Key dates, is there a spike in the following 2-5 days after these events?
+
+- Timeline
+- Key dates
+- Correlation
+
+```{r}
+#code, graphs, etc
+library(dplyr)
+library(ggplot2)
+library(tidyverse)
+library(janitor)
+library(gganimate)
+library(gifski)
+library(png)
+library(ggrepel)
+library(scales)
+# we can use this section here to load any packages that will be needed
+knitr::opts_chunk$set(echo = TRUE)
+covid_and_population_summary = read.csv(file = "casesduringholidaysCorrected.csv")
+head(covid_and_population_summary)
+Holidays <- covid_and_population_summary$Holidays
+ConfirmedCases <- covid_and_population_summary$Confirmed_Cases
+plot(Holidays, ConfirmedCases)
+```
+
+Key takeaways
+
+## Political Affilitation and Likelihood of Contracting Coronavirus
+
+Overview ...
+
+- Scatter Plot
+- Linear Regression
+- Clustering
+
+```{}
+
+```
+
+Key takeaways
+
+## References
+
+Source out all our data
