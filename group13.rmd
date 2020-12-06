@@ -9,6 +9,18 @@ output:
 ---
 
 ```{r setup, include=FALSE}
+
+#install libraries, uncomment lines below if packages are already installed
+#install.packages("dplyr")
+#install.packages("ggplot2")
+#install.packages("tidyverse")
+#install.packages("janitor")
+#install.packages("gganimate")
+#install.packages("gifski")
+#install.packages("png")
+#install.packages("ggrepel")
+#install.packages("scales")
+
 library(dplyr)
 library(ggplot2)
 library(tidyverse)
@@ -75,21 +87,44 @@ Overview ...
 
 ```{r}
 # Remove Outliers (remove if outliers are wanted)
-cases <- combined_data$Cases
-cases_Q1 <- quantile(cases, 0.25)
-cases_Q3 <- quantile(cases, 0.75)
-cases_IQR <- IQR(cases)
+#cases <- combined_data$Cases
+#cases_Q1 <- quantile(cases, 0.25)
+#cases_Q3 <- quantile(cases, 0.75)
+#cases_IQR <- IQR(cases)
 # adjust 1.5 to 3 to remove only extreme outliers
-combined_data_no_out <- subset(combined_data, cases> (cases_Q1 - 1.5*cases_IQR) & cases< (cases_Q3 + 1.5*cases_IQR))
+#combined_data_no_out <- subset(combined_data, cases> (cases_Q1 - 1.5*cases_IQR) & cases< (cases_Q3 + 1.5*cases_IQR))
 
 # Grab data from sets (change combined_data_no_out to combined_data to use set with outliers)
-cases <- combined_data_no_out$Cases
-percent_gop <- combined_data_no_out$per_gop
-percent_dem <- combined_data_no_out$per_dem
+#cases <- combined_data_no_out$Cases
+#percent_gop <- combined_data_no_out$per_gop
+#percent_dem <- combined_data_no_out$per_dem
 
 # Plot the scatterplots (seperately, they appear too squished if together)
-plot(percent_gop, cases, col = "red", xlab = "Percentage of Population Voting Republican", ylab = "Number of Cases")
-plot(percent_dem, cases, col = "blue", xlab = "Percentage of Population Voting Democrat", ylab = "Number of Cases")
+#plot(percent_gop, cases, col = "red", xlab = "Percentage of Population Voting Republican", ylab = "Number of Cases")
+#plot(percent_dem, cases, col = "blue", xlab = "Percentage of Population Voting Democrat", ylab = "Number of Cases")
+
+
+
+##correction for plots USE THIS INSTEAD delete above stuff when data is corrected and you're sure this works
+combined_data <- transform(combined_data, cases_per_pop = Cases / as.integer(Population))
+cases_per_pop <- combined_data$cases_per_pop
+percent_gop <- combined_data$per_gop
+percent_dem <- combined_data$per_dem
+
+
+#all data should be between 0 and 1, make sure it is
+#if there are random outliers and data is correct!! add ylim=c(0,1) to both graphs
+plot(percent_gop, cases_per_pop, col = "red", xlab = "Percentage of Population Voting Republican", ylab = "Cases as Percent of Population")
+abline(lm(cases_per_pop ~ percent_gop), col ="blue")
+
+plot(percent_dem, cases_per_pop, col = "blue", xlab = "Percentage of Population Voting Democrat", ylab = "Cases as Percent of Population")
+abline(lm(cases_per_pop ~ percent_dem), col = "red")
+
+# correlation values between percent gop, dem and cases/pop
+final = data.frame("cases.pop" = cases_per_pop, "pecent.dem" = percent_dem, "percent.gop" = percent_gop)
+
+cor(final, use = "complete.obs")
+
 ```
 
 Key takeaways
