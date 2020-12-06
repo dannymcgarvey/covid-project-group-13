@@ -10,6 +10,7 @@ output:
 
 ```{r setup, include=FALSE}
 
+
 #install libraries, uncomment lines below if packages are already installed
 #install.packages("dplyr")
 #install.packages("ggplot2")
@@ -30,7 +31,14 @@ library(gifski)
 library(png)
 library(ggrepel)
 library(scales)
+library(RCurl)
+
 combined_data = read.csv(file = "combinedData.csv")
+
+# obtain up to date data for daily cases automatically
+timeline <- read.csv(text = getURL(
+  "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv"
+  ))
 ```
 
 ### Group 13's Goals
@@ -45,33 +53,61 @@ Our group chose to analyze two different trends in the data from JHU's Covid Dat
 
 Overview ...
 
-Following Key dates, is there a spike in the following 2-5 days after these events?
+Following Key dates, is there a spike in the following 1-2 weeks after these events?
 
 - Timeline
 - Key dates
 - Correlation
 
 ```{r}
-#code, graphs, etc
-library(dplyr)
-library(ggplot2)
-library(tidyverse)
-library(janitor)
-library(gganimate)
-library(gifski)
-library(png)
-library(ggrepel)
-library(scales)
-# we can use this section here to load any packages that will be needed
-knitr::opts_chunk$set(echo = TRUE)
-covid_and_population_summary = read.csv(file = "casesduringholidaysCorrected.csv")
-head(covid_and_population_summary)
 
-covid_full_1 <- covid_and_population_summary %>% select(c(1:6)) 
-covid_map_state_1 <- covid_full_1 %>% group_by(Holidays) %>% 
-  summarize_at(vars(1:3), sum) %>% adorn_totals('row')
-covid_map_state_1$Province_State <- tolower(covid_map_state_1$Province_State)
+# First we will look at the overall timeline for the US.
+cases <- timeline %>% select(seq(12, length(timeline)))
+totals <- cases %>% summarize_at(vars(2:length(cases)), sum)
+total_list <- data.matrix(totals)
+new_cases <- c()
+# convert from total cases to new cases
+for (i in seq(2, length(total_list))) {
+  new_cases <- c(new_cases, (total_list[i] - total_list[i-1]))
+}
+plot(new_cases, type="l")
 
+```
+```{r}
+# we can also plot this graph's derivative to see where the number of new cases was increasing
+# plotting differences in day to day new cases isn't useful since the rate of change oscillates daily
+# let's plot differences between 1 week intervals to see more long term trends
+rate_of_change <- c()
+for (i in seq(15, length(new_cases))) {
+  rate_of_change <- c(rate_of_change, sum(new_cases[(i-7):(i)]) - sum(new_cases[(i-14):(i-7)]))
+}
+plot(rate_of_change, type="l")
+abline(h=0)
+
+# haloween, election day, and veterans day all occur in a 2-week time peridos, so we group them together starting from Haloween
+
+# Note that case numbers following Thanksgiving may not be fully updated by the time of the presentation
+
+holidays <- c("Easter", "Memorial Day", "Independence Day", "Labor Day",  "Haloween", "Thanksgiving")
+dates <- c("2020-04-12", "2020-05-25","2020-07-04", "2020-09-07",  "2020-10-31", "2020-11-26")
+start_date <- "2020-01-23"
+# create 2 week intervals following each holiday
+
+for (day in dates) {
+  
+  abline(v=as.Date(day)-as.Date(start_date)-15)
+  # plot the line graph for this interval
+}
+
+#plot the zeroes of the derivative
+#dates <- seq(from=as.Date(start_date), by="day", length.out=length(totals))
+
+#zeroes <-dates[rate_of_change <= 10 && rate_of_change >= -10]
+```
+
+```{r}
+
+# Try to make a scatter plot: days passed since holiday vs % of new cases in that period
 
 ```
 
