@@ -10,19 +10,6 @@ output:
 
 ```{r setup, include=FALSE}
 
-
-#install libraries, uncomment lines below if packages are already installed
-#install.packages("dplyr")
-#install.packages("ggplot2")
-#install.packages("tidyverse")
-#install.packages("janitor")
-#install.packages("gganimate")
-#install.packages("gifski")
-#install.packages("png")
-#install.packages("ggrepel")
-#install.packages("scales")
-#install.packages("RCurl")
-
 library(dplyr)
 library(ggplot2)
 library(tidyverse)
@@ -54,61 +41,84 @@ Our group chose to analyze two different trends in the data from JHU's Covid Dat
 
 Overview ...
 
-Following Key dates, is there a spike in the following 1-2 weeks after these events?
+Do certain Holiday celebrations line up with increased rates of spread of Covid-19?
 
-- Timeline
-- Key dates
-- Correlation
+First we will create a graph of the new cases each day in the US.
 
 ```{r}
 
-# First we will look at the overall timeline for the US.
+# first get a list of just the total cases each day
 cases <- timeline %>% select(seq(12, length(timeline)))
 totals <- cases %>% summarize_at(vars(2:length(cases)), sum)
 total_list <- data.matrix(totals)
-new_cases <- c()
+
 # convert from total cases to new cases
+new_cases <- c()
 for (i in seq(2, length(total_list))) {
   new_cases <- c(new_cases, (total_list[i] - total_list[i-1]))
 }
-plot(new_cases, type="l")
+plot(new_cases, type="l", main="Daily New Covid-19 Cases in the US", xlab = "Days since January 22, 2020", ylab = "New Cases")
 
 ```
+
+Now Let's take a look at the rate of change of this graph to see where the spread sped up and slowed down.
+
+To smooth the plot out, we will measure the rate of change as the difference between the total cases for the seven days after a given date and the total cases for the seven days before this date.
+
+Black lines are dates on which the weekly total cases started increasing
+
+Red lines are labeled with specific holidays
+
 ```{r}
-# we can also plot this graph's derivative to see where the number of new cases was increasing
+# we can also plot this graph's derivative to see where the number of new cases began increasing
 # plotting differences in day to day new cases isn't useful since the rate of change oscillates daily
 # let's plot differences between 1 week intervals to see more long term trends
 rate_of_change <- c()
-for (i in seq(15, length(new_cases))) {
-  rate_of_change <- c(rate_of_change, sum(new_cases[(i-7):(i)]) - sum(new_cases[(i-14):(i-7)]))
+for (i in seq(8, length(new_cases) - 7)) {
+  rate_of_change <- c(rate_of_change, sum(new_cases[(i):(i+7)]) - sum(new_cases[(i-7):(i)]))
 }
-plot(rate_of_change, type="l")
+
+# since i started at 8, the new graph starts at January 29 instead of January 22.
+start_date <- "2020-01-29"
+
+plot(rate_of_change, type="l", main = "Change in weekly total of US Covid-19 Cases", xlab = "Days Since January 29, 2020", ylab = "Change in Weekly Total Cases")
 abline(h=0)
 
-# haloween, election day, and veterans day all occur in a 2-week time peridos, so we group them together starting from Haloween
-
+# create A line and label for each holiday
+# haloween, election day, and veterans day all occur in a 2-week time period, so we group them together starting from Haloween
 # Note that case numbers following Thanksgiving may not be fully updated by the time of the presentation
-
 holidays <- c("Easter", "Memorial Day", "Independence Day", "Labor Day",  "Haloween", "Thanksgiving")
 dates <- c("2020-04-12", "2020-05-25","2020-07-04", "2020-09-07",  "2020-10-31", "2020-11-26")
-start_date <- "2020-01-23"
-# create 2 week intervals following each holiday
-
-for (day in dates) {
-  
-  abline(v=as.Date(day)-as.Date(start_date)-15)
-  # plot the line graph for this interval
+height <- 200000
+for (i in seq(length(dates))) {
+  abline(v=as.Date(dates[i])-as.Date(start_date), col="red")
+  text(x = as.Date(dates[i])-as.Date(start_date), y = height, holidays[i], adj = c(1, NA))
+  # Alternate the heights of the labels
+  if (height == 200000) {
+    height <- 150000
+  } else {
+    height <- 200000
+  }
 }
 
-#plot the zeroes of the derivative
-#dates <- seq(from=as.Date(start_date), by="day", length.out=length(totals))
+# find the dates where the rate of change became positive
+# need to start off with a date to get started, will remove after loop
+zeroes <- as.Date(start_date)
+dates <- seq(from=as.Date(start_date), by="day", length.out=length(totals))
+# ignore the first 40 days, we are not interested in these
+for (i in seq(40, length(rate_of_change))) {
+  if (rate_of_change[i] > 0 && rate_of_change[i-1] < 0) {
+    zeroes <- c(zeroes, dates[i])
+  }
+}
+# remove the starting date
+zeroes <- zeroes[2:length(zeroes)]
 
-#zeroes <-dates[rate_of_change <= 10 && rate_of_change >= -10]
-```
-
-```{r}
-
-# Try to make a scatter plot: days passed since holiday vs % of new cases in that period
+# plot lines at the dates on which the rate of change became positive
+for (i in seq(length(zeroes))) {
+  abline(v=zeroes[i]-as.Date(start_date))
+  
+}
 
 ```
 
@@ -169,3 +179,4 @@ Key takeaways
 ## References
 
 Source out all our data
+
