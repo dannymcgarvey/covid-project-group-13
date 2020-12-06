@@ -1,429 +1,6 @@
 State,County,Cases,County,Population,
-Alabama,Shelby,9537,St. Clair,"89,512",FALSE
-Alabama,St. Clair,3891,Shelby,"217,702",FALSE
-Alaska,Matanuska-Susitna,2504,LakeandPeninsulaBoroughAlaska,"1,592",FALSE
-Alaska,Nome,178,Matanuska-Susitna,"108,317",FALSE
-Alaska,North Slope,403,Nome,"10,004",FALSE
-Alaska,Northwest Arctic,326,North Slope,"9,832",FALSE
-Alaska,Petersburg,23,Northwest Arctic,"7,621",FALSE
-Alaska,Prince of Wales-Hyder,46,Petersburg,"3,266",FALSE
-Alaska,Sitka,145,Prince of Wales-Hyder,"6,203",FALSE
-Alaska,Skagway,8,Sitka,"8,493",FALSE
-Alaska,Southeast Fairbanks,206,Skagway,"1,183",FALSE
-Alaska,Unassigned,118,Southeast Fairbanks,"6,893",FALSE
-Arkansas,Saline,4170,St. Francis,"24,994",FALSE
-Arkansas,Scott,323,Saline,"122,437",FALSE
-Arkansas,Searcy,268,Scott,"10,281",FALSE
-Arkansas,Sebastian,6467,Searcy,"7,881",FALSE
-Arkansas,Sevier,1630,Sebastian,"127,827",FALSE
-Arkansas,Sharp,604,Sevier,"17,007",FALSE
-Arkansas,St. Francis,1959,Sharp,"17,442",FALSE
-California,Los Angeles,357451,LosAngeles,"10,039,107",FALSE
-Colorado,El Paso,21308,Elbert,"26,729",FALSE
-Colorado,Elbert,475,El Paso,"720,403",FALSE
-Colorado,La Plata,753,Lake,"8,127",FALSE
-Colorado,Lake,224,La Plata,"56,221",FALSE
-Florida,Santa Rosa,6903,St. Johns,"264,672",FALSE
-Florida,Sarasota,12121,St. Lucie,"328,297",FALSE
-Florida,Seminole,11993,Santa Rosa,"184,313",FALSE
-Florida,St. Johns,7881,Sarasota,"433,742",FALSE
-Florida,St. Lucie,10148,Seminole,"471,826",FALSE
-Georgia,DeKalb,25917,Decatur,"26,404",FALSE
-Georgia,Decatur,1551,DeKalb,"759,297",FALSE
-Georgia,Macon,321,McDuffie,"21,312",FALSE
-Georgia,Madison,1047,McIntosh,"14,378",FALSE
-Georgia,Marion,239,Macon,"12,947",FALSE
-Georgia,McDuffie,909,Madison,"29,880",FALSE
-Georgia,McIntosh,365,Marion,"8,359",FALSE
-Illinois,De Witt,554,DeKalb,"104,897",FALSE
-Illinois,DeKalb,4415,De Witt,"15,638",FALSE
-Illinois,LaSalle,5331,Lake,"696,535",FALSE
-Illinois,Lake,33260,LaSalle,"108,669",FALSE
-Illinois,Macon,5774,McDonough,"29,682",FALSE
-Illinois,Macoupin,1828,McHenry,"307,774",FALSE
-Illinois,Madison,12394,McLean,"171,517",FALSE
-Illinois,Marion,2135,Macon,"104,009",FALSE
-Illinois,Marshall,320,Macoupin,"44,926",FALSE
-Illinois,Mason,580,Madison,"262,966",FALSE
-Illinois,Massac,422,Marion,"37,205",FALSE
-Illinois,McDonough,1433,Marshall,"11,438",FALSE
-Illinois,McHenry,12483,Mason,"13,359",FALSE
-Illinois,McLean,7408,Massac,"13,772",FALSE
-Illinois,Saline,999,St. Clair,"259,686",FALSE
-Illinois,Sangamon,8669,Saline,"23,491",FALSE
-Illinois,Schuyler,222,Sangamon,"194,672",FALSE
-Illinois,Scott,207,Schuyler,"6,768",FALSE
-Illinois,Shelby,1161,Scott,"4,951",FALSE
-Illinois,St. Clair,11447,Shelby,"21,634",FALSE
-Indiana,DeKalb,1617,Dearborn,"49,458",FALSE
-Indiana,Dearborn,1934,Decatur,"26,559",FALSE
-Indiana,Decatur,1162,DeKalb,"43,475",FALSE
-Indiana,LaPorte,4194,Lake,"485,493",FALSE
-Indiana,Lake,25026,LaPorte,"109,888",FALSE
-Indiana,Scott,919,St. Joseph,"271,826",FALSE
-Indiana,Shelby,1608,Scott,"23,873",FALSE
-Indiana,Spencer,742,Shelby,"44,729",FALSE
-Indiana,St. Joseph,15539,Spencer,"20,277",FALSE
-Kansas,Marion,373,McPherson,"28,542",FALSE
-Kansas,Marshall,362,Marion,"11,884",FALSE
-Kansas,McPherson,1157,Marshall,"9,707",FALSE
-Kentucky,Madison,3281,McCracken,"65,418",FALSE
-Kentucky,Magoffin,353,McCreary,"17,231",FALSE
-Kentucky,Marion,827,McLean,"9,207",FALSE
-Kentucky,Marshall,811,Madison,"92,987",FALSE
-Kentucky,Martin,358,Magoffin,"12,161",FALSE
-Kentucky,Mason,321,Marion,"19,273",FALSE
-Kentucky,McCracken,2173,Marshall,"31,100",FALSE
-Kentucky,McCreary,331,Martin,"11,195",FALSE
-Kentucky,McLean,343,Mason,"17,070",FALSE
-Louisiana,LaSalle,819,Lafayette,"244,390",FALSE
-Louisiana,Lafayette,11146,Lafourche,"97,614",FALSE
-Louisiana,Lafourche,4455,LaSalle,"14,892",FALSE
-Maryland,Somerset,636,St. Mary's,"113,510",FALSE
-Maryland,St. Mary's,1851,Somerset,"25,616",FALSE
-Michigan,Sanilac,517,St. Clair,"159,128",FALSE
-Michigan,Schoolcraft,163,St. Joseph,"60,964",FALSE
-Michigan,Shiawassee,1573,Sanilac,"41,170",FALSE
-Michigan,St. Clair,3527,Schoolcraft,"8,094",FALSE
-Michigan,St. Joseph,2228,Shiawassee,"68,122",FALSE
-Minnesota,Scott,6884,St. Louis,"199,070",FALSE
-Minnesota,Sherburne,4734,Scott,"149,013",FALSE
-Minnesota,Sibley,632,Sherburne,"97,238",FALSE
-Minnesota,St. Louis,6766,Sibley,"14,865",FALSE
-Missouri,Macon,544,McDonald,"22,837",FALSE
-Missouri,Madison,736,Macon,"15,117",FALSE
-Missouri,Maries,324,Madison,"12,088",FALSE
-Missouri,Marion,1549,Maries,"8,697",FALSE
-Missouri,McDonald,1340,Marion,"28,530",FALSE
-Montana,Madison,369,McCone,"1,664",FALSE
-Montana,McCone,82,Madison,"8,600",FALSE
-Nebraska,Madison,2808,McPherson,494,FALSE
-Nebraska,McPherson,15,Madison,"35,099",FALSE
-New Mexico,San Juan,4807,Sandoval,"146,748",FALSE
-New Mexico,San Miguel,340,San Juan,"123,958",FALSE
-New Mexico,Sandoval,3797,San Miguel,"27,277",FALSE
-New York,Saratoga,1842,St. Lawrence,"107,740",FALSE
-New York,Schenectady,1997,Saratoga,"229,863",FALSE
-New York,Schoharie,162,Schenectady,"155,299",FALSE
-New York,Schuyler,248,Schoharie,"30,999",FALSE
-New York,Seneca,232,Schuyler,"17,807",FALSE
-New York,St. Lawrence,649,Seneca,"34,016",FALSE
-North Carolina,Macon,886,McDowell,"45,756",FALSE
-North Carolina,Madison,428,Macon,"35,858",FALSE
-North Carolina,Martin,774,Madison,"21,755",FALSE
-North Carolina,McDowell,1647,Martin,"22,440",FALSE
-Oklahoma,Major,367,McClain,"40,474",FALSE
-Oklahoma,Marshall,581,McCurtain,"32,832",FALSE
-Oklahoma,Mayes,1358,McIntosh,"19,596",FALSE
-Oklahoma,McClain,2097,Major,"7,629",FALSE
-Oklahoma,McCurtain,2143,Marshall,"16,931",FALSE
-Oklahoma,McIntosh,719,Mayes,"41,100",FALSE
-South Carolina,Marion,1277,McCormick,"9,463",FALSE
-South Carolina,Marlboro,1313,Marion,"30,657",FALSE
-South Carolina,McCormick,315,Marlboro,"26,118",FALSE
-South Dakota,Marshall,138,McCook,"5,586",FALSE
-South Dakota,McCook,546,McPherson,"2,379",FALSE
-South Dakota,McPherson,122,Marshall,"4,935",FALSE
-Tennessee,DeKalb,1056,Decatur,"11,663",FALSE
-Tennessee,Decatur,885,DeKalb,"20,490",FALSE
-Tennessee,Macon,1726,McMinn,"53,794",FALSE
-Tennessee,Madison,4964,McNairy,"25,694",FALSE
-Tennessee,Marion,1014,Macon,"24,602",FALSE
-Tennessee,Marshall,1577,Madison,"97,984",FALSE
-Tennessee,Maury,5266,Marion,"28,907",FALSE
-Tennessee,McMinn,2271,Marshall,"34,375",FALSE
-Tennessee,McNairy,1357,Maury,"96,387",FALSE
-Texas,DeWitt,1167,Deaf Smith,"18,546",FALSE
-Texas,Deaf Smith,1219,Delta,"5,331",FALSE
-Texas,Delta,46,Denton,"887,207",FALSE
-Texas,Denton,18141,DeWitt,"20,160",FALSE
-Texas,El Paso,79162,Ellis,"184,826",FALSE
-Texas,Ellis,6070,El Paso,"839,238",FALSE
-Texas,La Salle,388,Lamar,"49,859",FALSE
-Texas,Lamar,2385,Lamb,"12,893",FALSE
-Texas,Lamb,876,Lampasas,"21,428",FALSE
-Texas,Lampasas,356,La Salle,"7,520",FALSE
-Texas,Madison,854,McCulloch,"7,984",FALSE
-Texas,Marion,182,McLennan,"256,623",FALSE
-Texas,Martin,170,McMullen,743,FALSE
-Texas,Mason,133,Madison,"14,284",FALSE
-Texas,Matagorda,1199,Marion,"9,854",FALSE
-Texas,Maverick,4722,Martin,"5,771",FALSE
-Texas,McCulloch,274,Mason,"4,274",FALSE
-Texas,McLennan,12947,Matagorda,"36,643",FALSE
-Texas,McMullen,27,Maverick,"58,722",FALSE
-Virginia,King George,354,King and Queen,"7,025",FALSE
-Virginia,King William,263,King George,"26,836",FALSE
-Virginia,King and Queen,100,King William,"17,148",FALSE
-West Virginia,Marion,667,McDowell,"17,624",FALSE
-West Virginia,Marshall,961,Marion,"56,072",FALSE
-West Virginia,Mason,309,Marshall,"30,531",FALSE
-West Virginia,McDowell,557,Mason,"26,516",FALSE
-Wisconsin,Sauk,3252,St. Croix,"90,687",FALSE
-Wisconsin,Sawyer,760,Sauk,"64,442",FALSE
-Wisconsin,Shawano,3608,Sawyer,"16,558",FALSE
-Wisconsin,Sheboygan,8447,Shawano,"40,899",FALSE
-Wisconsin,St. Croix,3990,Sheboygan,"115,340",FALSE
-Alaska,Bristol Bay plus Lake and Peninsula,141,Bristol Bay plus Lake and Peninsula,836,TRUE
-California,San Bernardino,81328,San Bernardino,"2,180,085",TRUE
-California,San Diego,69231,San Diego,"3,338,330",TRUE
-California,San Francisco,14251,San Francisco,"881,549",TRUE
-California,San Joaquin,24450,San Joaquin,"762,148",TRUE
-California,San Luis Obispo,5486,San Luis Obispo,"283,111",TRUE
-California,San Mateo,12988,San Mateo,"766,573",TRUE
-California,Santa Barbara,10768,Santa Barbara,"446,499",TRUE
-California,Santa Clara,30025,Santa Clara,"1,927,852",TRUE
-California,Santa Cruz,3685,Santa Cruz,"273,213",TRUE
-Colorado,Clear Creek,159,Clear Creek,"9,700",TRUE
-Colorado,Kit Carson,247,Kit Carson,"7,097",TRUE
-Colorado,Las Animas,152,Las Animas,"14,506",TRUE
-Colorado,Rio Blanco,84,Rio Blanco,"6,324",TRUE
-Colorado,Rio Grande,188,Rio Grande,"11,267",TRUE
-Colorado,San Juan,19,San Juan,728,TRUE
-Colorado,San Miguel,174,San Miguel,"8,179",TRUE
-Connecticut,New Haven,25248,New Haven,"854,757",TRUE
-Connecticut,New London,5352,New London,"265,206",TRUE
-Delaware,New Castle,16900,New Castle,"558,753",TRUE
-District of Columbia,District of Columbia,19808,District of Columbia,"705,749",TRUE
-Florida,Indian River,4668,Indian River,"159,923",TRUE
-Florida,Miami-Dade,211257,Miami-Dade,"2,716,940",TRUE
-Florida,Palm Beach,60729,Palm Beach,"1,496,770",TRUE
-Georgia,Ben Hill,982,Ben Hill,"16,700",TRUE
-Georgia,Jeff Davis,943,Jeff Davis,"15,115",TRUE
-Idaho,Bear Lake,157,Bear Lake,"6,125",TRUE
-Idaho,Nez Perce,1990,Nez Perce,"40,408",TRUE
-Idaho,Twin Falls,6312,Twin Falls,"86,878",TRUE
-Illinois,Jo Daviess,949,Jo Daviess,"21,235",TRUE
-Illinois,Rock Island,7606,Rock Island,"141,879",TRUE
-Iowa,Black Hawk,10005,Black Hawk,"131,228",TRUE
-Iowa,Buena Vista,2865,Buena Vista,"19,620",TRUE
-Iowa,Cerro Gordo,3110,Cerro Gordo,"42,450",TRUE
-Iowa,Des Moines,2591,Des Moines,"38,967",TRUE
-Iowa,O'Brien,1163,O'Brien,"13,753",TRUE
-Iowa,Palo Alto,585,Palo Alto,"8,886",TRUE
-Iowa,Van Buren,322,Van Buren,"7,044",TRUE
-Louisiana,Acadia,3678,Acadia,"62,045",TRUE
-Louisiana,Allen,2046,Allen,"25,627",TRUE
-Louisiana,Ascension,5325,Ascension,"126,604",TRUE
-Louisiana,Assumption,972,Assumption,"21,891",TRUE
-Louisiana,Avoyelles,1997,Avoyelles,"40,144",TRUE
-Louisiana,Beauregard,1270,Beauregard,"37,497",TRUE
-Louisiana,Bienville,726,Bienville,"13,241",TRUE
-Louisiana,Bossier,5774,Bossier,"127,039",TRUE
-Louisiana,Caddo,12329,Caddo,"240,204",TRUE
-Louisiana,Calcasieu,9924,Calcasieu,"203,436",TRUE
-Louisiana,Caldwell,593,Caldwell,"9,918",TRUE
-Louisiana,Cameron,272,Cameron,"6,973",TRUE
-Louisiana,Catahoula,582,Catahoula,"9,494",TRUE
-Louisiana,Claiborne,715,Claiborne,"15,670",TRUE
-Louisiana,Concordia,911,Concordia,"19,259",TRUE
-Louisiana,De Soto,1178,De Soto,"27,463",TRUE
-Louisiana,East Baton Rouge,18764,East Baton Rouge,"440,059",TRUE
-Louisiana,East Carroll,670,East Carroll,"6,861",TRUE
-Louisiana,East Feliciana,2048,East Feliciana,"19,135",TRUE
-Louisiana,Evangeline,1753,Evangeline,"33,395",TRUE
-Louisiana,Franklin,1653,Franklin,"20,015",TRUE
-Louisiana,Grant,664,Grant,"22,389",TRUE
-Louisiana,Iberia,3446,Iberia,"69,830",TRUE
-Louisiana,Iberville,1799,Iberville,"32,511",TRUE
-Alaska,Ketchikan Gateway,183,Ketchikan Gateway,"13,901",TRUE
-Alaska,Kodiak Island,203,Kodiak Island,"12,998",TRUE
-Alaska,Kusilvak,374,Kusilvak,"8,314",TRUE
-Alaska,Valdez-Cordova,232,Valdez-Cordova,"9,202",TRUE
-Alaska,Wrangell,20,Wrangell,"2,502",TRUE
-Alaska,Yakutat,44,Yakutat,579,TRUE
-Alaska,Yukon-Koyukuk,150,Yukon-Koyukuk,"5,230",TRUE
-Arizona,La Paz,740,La Paz,"21,108",TRUE
-Arizona,Santa Cruz,3468,Santa Cruz,"46,498",TRUE
-Arkansas,Hot Spring,2729,Hot Spring,"33,771",TRUE
-Arkansas,Little River,601,Little River,"12,259",TRUE
-Arkansas,Van Buren,307,Van Buren,"16,545",TRUE
-California,Contra Costa,21959,Contra Costa,"1,153,526",TRUE
-California,Del Norte,259,Del Norte,"27,812",TRUE
-California,El Dorado,1899,El Dorado,"192,843",TRUE
-California,San Benito,1694,San Benito,"62,808",TRUE
-Louisiana,Jackson,1098,Jackson,"15,744",TRUE
-Louisiana,Jefferson,20927,Jefferson,"432,493",TRUE
-Louisiana,Jefferson Davis,1603,Jefferson Davis,"31,368",TRUE
-Louisiana,Lincoln,2318,Lincoln,"46,742",TRUE
-Louisiana,Livingston,5456,Livingston,"140,789",TRUE
-Louisiana,Madison,1018,Madison,"10,951",TRUE
-Louisiana,Morehouse,1197,Morehouse,"24,874",TRUE
-Louisiana,Natchitoches,1909,Natchitoches,"38,158",TRUE
-Louisiana,Orleans,14978,Orleans,"390,144",TRUE
-Louisiana,Ouachita,9267,Ouachita,"153,279",TRUE
-Louisiana,Plaquemines,1057,Plaquemines,"23,197",TRUE
-Louisiana,Pointe Coupee,1302,Pointe Coupee,"21,730",TRUE
-Louisiana,Rapides,5948,Rapides,"129,648",TRUE
-Louisiana,Red River,551,Red River,"8,442",TRUE
-Louisiana,Richland,1323,Richland,"20,122",TRUE
-Louisiana,Sabine,1320,Sabine,"23,884",TRUE
-Louisiana,St. Bernard,1715,St. Bernard,"47,244",TRUE
-Louisiana,St. Charles,2391,St. Charles,"53,100",TRUE
-Louisiana,St. Helena,501,St. Helena,"10,132",TRUE
-Louisiana,St. James,934,St. James,"21,096",TRUE
-Louisiana,St. John the Baptist,1873,St. John the Baptist,"42,837",TRUE
-Louisiana,St. Landry,4597,St. Landry,"82,124",TRUE
-Louisiana,St. Martin,2545,St. Martin,"53,431",TRUE
-Louisiana,St. Mary,2271,St. Mary,"49,348",TRUE
-Louisiana,St. Tammany,9514,St. Tammany,"260,419",TRUE
-Louisiana,Tangipahoa,6190,Tangipahoa,"134,758",TRUE
-Louisiana,Tensas,205,Tensas,"4,334",TRUE
-Louisiana,Terrebonne,4303,Terrebonne,"110,461",TRUE
-Louisiana,Union,1338,Union,"22,108",TRUE
-Louisiana,Vermilion,2404,Vermilion,"59,511",TRUE
-Louisiana,Vernon,1327,Vernon,"47,429",TRUE
-Louisiana,Washington,2150,Washington,"46,194",TRUE
-Louisiana,Webster,1844,Webster,"38,340",TRUE
-Louisiana,West Baton Rouge,1228,West Baton Rouge,"26,465",TRUE
-Louisiana,West Carroll,556,West Carroll,"10,830",TRUE
-Louisiana,West Feliciana,779,West Feliciana,"15,568",TRUE
-Louisiana,Winn,906,Winn,"13,904",TRUE
-Alaska,Aleutians East,21,Aleutians East,"3,337",TRUE
-Alaska,Aleutians West,106,Aleutians West,"5,634",TRUE
-Alaska,Anchorage,14063,Anchorage,"288,000",TRUE
-Alaska,Bethel,1085,Bethel,"18,386",TRUE
-Alaska,Denali,40,Denali,"2,097",TRUE
-Alaska,Dillingham,90,Dillingham,"4,916",TRUE
-Alaska,Fairbanks North Star,3034,Fairbanks North Star,"96,849",TRUE
-Alaska,Haines,16,Haines,"2,530",TRUE
-Alaska,Hoonah-Angoon,0,Hoonah-Angoon,"2,148",TRUE
-Alaska,Juneau,776,Juneau,"31,974",TRUE
-Alaska,Kenai Peninsula,2009,Kenai Peninsula,"58,708",TRUE
-Maryland,Anne Arundel,15103,Anne Arundel,"579,234",TRUE
-Maryland,Baltimore City,22010,Baltimore City,"593,490",TRUE
-Maryland,Prince George's,38053,Prince George's,"909,327",TRUE
-Maryland,Queen Anne's,990,Queen Anne's,"50,381",TRUE
-Massachusetts,Dukes and Nantucket,486,Dukes and Nantucket,"28,731",TRUE
-Michigan,Grand Traverse,1517,Grand Traverse,"93,088",TRUE
-Michigan,Presque Isle,184,Presque Isle,"12,592",TRUE
-Michigan,Van Buren,2274,Van Buren,"75,677",TRUE
-Minnesota,Big Stone,260,Big Stone,"4,991",TRUE
-Minnesota,Blue Earth,3525,Blue Earth,"67,653",TRUE
-Minnesota,Crow Wing,2908,Crow Wing,"65,055",TRUE
-Minnesota,Lac qui Parle,295,Lac qui Parle,"6,623",TRUE
-Minnesota,Lake of the Woods,78,Lake of the Woods,"3,740",TRUE
-Minnesota,Le Sueur,1209,Le Sueur,"28,887",TRUE
-Minnesota,Mille Lacs,1201,Mille Lacs,"26,277",TRUE
-Minnesota,Otter Tail,2328,Otter Tail,"58,746",TRUE
-Minnesota,Red Lake,167,Red Lake,"4,055",TRUE
-Minnesota,Yellow Medicine,508,Yellow Medicine,"9,709",TRUE
-Mississippi,Jefferson Davis,528,Jefferson Davis,"11,128",TRUE
-Mississippi,Pearl River,1385,Pearl River,"55,535",TRUE
-Missouri,Cape Girardeau,4407,Cape Girardeau,"78,871",TRUE
-Missouri,New Madrid,1204,New Madrid,"17,076",TRUE
-Missouri,St. Charles,17328,St. Charles,"402,022",TRUE
-Missouri,St. Clair,282,St. Clair,"9,397",TRUE
-Missouri,St. Francois,4499,St. Francois,"67,215",TRUE
-Missouri,St. Louis,44897,St. Louis,"994,205",TRUE
-Missouri,St. Louis City,11393,St. Louis City,"300,576",TRUE
-Missouri,Ste. Genevieve,909,Ste. Genevieve,"17,894",TRUE
-Montana,Big Horn,1738,Big Horn,"13,319",TRUE
-Montana,Deer Lodge,656,Deer Lodge,"9,140",TRUE
-Montana,Golden Valley,22,Golden Valley,821,TRUE
-Montana,Judith Basin,46,Judith Basin,"2,007",TRUE
-Montana,Lewis and Clark,2152,Lewis and Clark,"69,432",TRUE
-Montana,Powder River,79,Powder River,"1,682",TRUE
-Montana,Silver Bow,1639,Silver Bow,"34,915",TRUE
-Montana,Sweet Grass,212,Sweet Grass,"3,737",TRUE
-Nebraska,Box Butte,517,Box Butte,"10,783",TRUE
-Nebraska,Keya Paha,17,Keya Paha,806,TRUE
-Nebraska,Red Willow,507,Red Willow,"10,724",TRUE
-Nebraska,Scotts Bluff,2493,Scotts Bluff,"35,618",TRUE
-Nevada,Carson City,1545,Carson City,"55,916",TRUE
-Nevada,White Pine,218,White Pine,"9,580",TRUE
-New Jersey,Cape May,1498,Cape May,"92,039",TRUE
-New Mexico,De Baca,30,De Baca,"1,748",TRUE
-New Mexico,Dona Ana,11567,Dona Ana,"218,195",TRUE
-New Mexico,Los Alamos,106,Los Alamos,"19,369",TRUE
-New Mexico,Rio Arriba,1028,Rio Arriba,"38,921",TRUE
-New Mexico,Santa Fe,3977,Santa Fe,"150,358",TRUE
-New York,New York,41620,New York,"1,628,706",TRUE
-North Carolina,New Hanover,6421,New Hanover,"234,473",TRUE
-North Dakota,Golden Valley,146,Golden Valley,"1,761",TRUE
-North Dakota,Grand Forks,7475,Grand Forks,"69,451",TRUE
-Ohio,Van Wert,811,Van Wert,"28,275",TRUE
-Oklahoma,Le Flore,2213,Le Flore,"49,853",TRUE
-Oklahoma,Roger Mills,134,Roger Mills,"3,583",TRUE
-Oregon,Hood River,349,Hood River,"23,382",TRUE
-South Dakota,Bon Homme,1288,Bon Homme,"6,901",TRUE
-South Dakota,Charles Mix,703,Charles Mix,"9,292",TRUE
-South Dakota,Fall River,340,Fall River,"6,713",TRUE
-South Dakota,Oglala Lakota,1498,Oglala Lakota,"14,177",TRUE
-Tennessee,Van Buren,317,Van Buren,"5,872",TRUE
-Texas,Fort Bend,19223,Fort Bend,"811,688",TRUE
-Texas,Jeff Davis,43,Jeff Davis,"2,274",TRUE
-Texas,Jim Hogg,206,Jim Hogg,"5,200",TRUE
-Texas,Jim Wells,1894,Jim Wells,"40,482",TRUE
-Texas,Live Oak,418,Live Oak,"12,207",TRUE
-Texas,Palo Pinto,882,Palo Pinto,"29,189",TRUE
-Texas,Red River,216,Red River,"12,023",TRUE
-Texas,San Augustine,256,San Augustine,"8,237",TRUE
-Texas,San Jacinto,250,San Jacinto,"28,859",TRUE
-Texas,San Patricio,1747,San Patricio,"66,730",TRUE
-Texas,San Saba,294,San Saba,"6,055",TRUE
-Texas,Tom Green,7954,Tom Green,"119,200",TRUE
-Texas,Val Verde,2932,Val Verde,"49,025",TRUE
-Texas,Van Zandt,1017,Van Zandt,"56,590",TRUE
-Utah,Box Elder,8634,Box Elder,"56,046",TRUE
-Utah,Salt Lake,71088,Salt Lake,"1,160,437",TRUE
-Utah,San Juan,970,San Juan,"15,308",TRUE
-Vermont,Grand Isle,36,Grand Isle,"7,235",TRUE
-Virginia,Harrisonburg,3319,Harrisonburg,"53,016",TRUE
-Virginia,Alexandria,4831,Alexandria,"159,428",TRUE
-Virginia,Bristol,473,Bristol,"16,762",TRUE
-Virginia,Buena Vista,209,Buena Vista,"6,478",TRUE
-Virginia,Charles City,127,Charles City,"6,963",TRUE
-Virginia,Charlottesville,1777,Charlottesville,"47,266",TRUE
-Virginia,Chesapeake,5799,Chesapeake,"244,835",TRUE
-Virginia,Colonial Heights,369,Colonial Heights,"17,370",TRUE
-Virginia,Covington,112,Covington,"5,538",TRUE
-Virginia,Danville,1492,Danville,"40,044",TRUE
-Virginia,Emporia,309,Emporia,"5,346",TRUE
-Virginia,Fairfax City,193,Fairfax City,"24,019",TRUE
-Virginia,Falls Church,88,Falls Church,"14,617",TRUE
-Virginia,Franklin City,533,Franklin City,"7,967",TRUE
-Virginia,Fredericksburg,643,Fredericksburg,"29,036",TRUE
-Virginia,Galax,518,Galax,"6,347",TRUE
-Virginia,Hampton,2506,Hampton,"134,510",TRUE
-Virginia,Hopewell,576,Hopewell,"22,529",TRUE
-Virginia,Isle of Wight,957,Isle of Wight,"37,109",TRUE
-Virginia,James City,1090,James City,"76,523",TRUE
-Virginia,Lexington,315,Lexington,"7,446",TRUE
-Virginia,Lynchburg,2446,Lynchburg,"82,168",TRUE
-Virginia,Manassas,2183,Manassas,"41,085",TRUE
-Virginia,Manassas Park,689,Manassas Park,"17,478",TRUE
-Virginia,Martinsville,608,Martinsville,"12,554",TRUE
-Virginia,New Kent,351,New Kent,"23,091",TRUE
-Virginia,Newport News,3688,Newport News,"179,225",TRUE
-Virginia,Norfolk,6144,Norfolk,"242,742",TRUE
-Virginia,Norton,65,Norton,"3,981",TRUE
-Virginia,Petersburg,1031,Petersburg,"31,346",TRUE
-Virginia,Poquoson,122,Poquoson,"12,271",TRUE
-Virginia,Portsmouth,3053,Portsmouth,"94,398",TRUE
-Virginia,Prince Edward,841,Prince Edward,"22,802",TRUE
-Virginia,Prince George,1348,Prince George,"38,353",TRUE
-Virginia,Prince William,16595,Prince William,"470,335",TRUE
-Virginia,Radford,1085,Radford,"18,249",TRUE
-Virginia,Richmond City,6215,Richmond City,"230,436",TRUE
-Virginia,Roanoke City,3772,Roanoke City,"99,143",TRUE
-Virginia,Salem,791,Salem,"25,301",TRUE
-Virginia,Staunton,548,Staunton,"24,932",TRUE
-Virginia,Suffolk,2582,Suffolk,"92,108",TRUE
-Virginia,Virginia Beach,9716,Virginia Beach,"449,974",TRUE
-Virginia,Waynesboro,502,Waynesboro,"22,630",TRUE
-Virginia,Williamsburg,275,Williamsburg,"14,954",TRUE
-Virginia,Winchester,847,Winchester,"28,078",TRUE
-Washington,Grays Harbor,904,Grays Harbor,"75,061",TRUE
-Washington,Pend Oreille,190,Pend Oreille,"13,724",TRUE
-Washington,San Juan,55,San Juan,"17,582",TRUE
-Washington,Walla Walla,1865,Walla Walla,"60,760",TRUE
-Wisconsin,Eau Claire,7018,Eau Claire,"104,646",TRUE
-Wisconsin,Fond du Lac,8097,Fond du Lac,"103,403",TRUE
-Wisconsin,Green Lake,1310,Green Lake,"18,913",TRUE
-Wisconsin,La Crosse,7340,La Crosse,"118,016",TRUE
-Wyoming,Big Horn,418,Big Horn,"11,790",TRUE
-Wyoming,Hot Springs,117,Hot Springs,"4,413",TRUE
+Alabama,St. Clair,3891,St. Clair,"89,512",TRUE
+Alabama,Shelby,9537,Shelby,"217,702",TRUE
 Alabama,Autauga,2580,Autauga,"55,869",TRUE
 Alabama,Baldwin,8038,Baldwin,"223,234",TRUE
 Alabama,Barbour,1151,Barbour,"24,686",TRUE
@@ -489,6 +66,36 @@ Alabama,Walker,3424,Walker,"63,521",TRUE
 Alabama,Washington,891,Washington,"16,326",TRUE
 Alabama,Wilcox,619,Wilcox,"10,373",TRUE
 Alabama,Winston,1192,Winston,"23,629",TRUE
+Alaska,Matanuska-Susitna,2504,Matanuska-Susitna,"108,317",TRUE
+Alaska,Nome,178,Nome,"10,004",TRUE
+Alaska,North Slope,403,North Slope,"9,832",TRUE
+Alaska,Northwest Arctic,326,Northwest Arctic,"7,621",TRUE
+Alaska,Petersburg,23,Petersburg,"3,266",TRUE
+Alaska,Prince of Wales-Hyder,46,Prince of Wales-Hyder,"6,203",TRUE
+Alaska,Sitka,145,Sitka,"8,493",TRUE
+Alaska,Skagway,8,Skagway,"1,183",TRUE
+Alaska,Southeast Fairbanks,206,Southeast Fairbanks,"6,893",TRUE
+Alaska,Bristol Bay plus Lake and Peninsula,141,Bristol Bay plus Lake and Peninsula,2428,TRUE
+Alaska,Ketchikan Gateway,183,Ketchikan Gateway,"13,901",TRUE
+Alaska,Kodiak Island,203,Kodiak Island,"12,998",TRUE
+Alaska,Kusilvak,374,Kusilvak,"8,314",TRUE
+Alaska,Valdez-Cordova,232,Valdez-Cordova,"9,202",TRUE
+Alaska,Wrangell,20,Wrangell,"2,502",TRUE
+Alaska,Yakutat,44,Yakutat,579,TRUE
+Alaska,Yukon-Koyukuk,150,Yukon-Koyukuk,"5,230",TRUE
+Alaska,Aleutians East,21,Aleutians East,"3,337",TRUE
+Alaska,Aleutians West,106,Aleutians West,"5,634",TRUE
+Alaska,Anchorage,14063,Anchorage,"288,000",TRUE
+Alaska,Bethel,1085,Bethel,"18,386",TRUE
+Alaska,Denali,40,Denali,"2,097",TRUE
+Alaska,Dillingham,90,Dillingham,"4,916",TRUE
+Alaska,Fairbanks North Star,3034,Fairbanks North Star,"96,849",TRUE
+Alaska,Haines,16,Haines,"2,530",TRUE
+Alaska,Hoonah-Angoon,0,Hoonah-Angoon,"2,148",TRUE
+Alaska,Juneau,776,Juneau,"31,974",TRUE
+Alaska,Kenai Peninsula,2009,Kenai Peninsula,"58,708",TRUE
+Arizona,La Paz,740,La Paz,"21,108",TRUE
+Arizona,Santa Cruz,3468,Santa Cruz,"46,498",TRUE
 Arizona,Apache,4741,Apache,"71,887",TRUE
 Arizona,Cochise,3020,Cochise,"125,922",TRUE
 Arizona,Coconino,6765,Coconino,"143,476",TRUE
@@ -502,6 +109,16 @@ Arizona,Pima,34985,Pima,"1,047,279",TRUE
 Arizona,Pinal,14851,Pinal,"462,789",TRUE
 Arizona,Yavapai,4095,Yavapai,"235,099",TRUE
 Arizona,Yuma,16042,Yuma,"213,787",TRUE
+Arkansas,St. Francis,1959,St. Francis,"24,994",TRUE
+Arkansas,Saline,4170,Saline,"122,437",TRUE
+Arkansas,Scott,323,Scott,"10,281",TRUE
+Arkansas,Searcy,268,Searcy,"7,881",TRUE
+Arkansas,Sebastian,6467,Sebastian,"127,827",TRUE
+Arkansas,Sevier,1630,Sevier,"17,007",TRUE
+Arkansas,Sharp,604,Sharp,"17,442",TRUE
+Arkansas,Hot Spring,2729,Hot Spring,"33,771",TRUE
+Arkansas,Little River,601,Little River,"12,259",TRUE
+Arkansas,Van Buren,307,Van Buren,"16,545",TRUE
 Arkansas,Arkansas,894,Arkansas,"17,486",TRUE
 Arkansas,Ashley,724,Ashley,"19,657",TRUE
 Arkansas,Baxter,1216,Baxter,"41,932",TRUE
@@ -567,6 +184,20 @@ Arkansas,Washington,14252,Washington,"239,187",TRUE
 Arkansas,White,2663,White,"78,753",TRUE
 Arkansas,Woodruff,181,Woodruff,"6,320",TRUE
 Arkansas,Yell,1563,Yell,"21,341",TRUE
+California,Los Angeles,357451,Los Angeles,"10,039,107",TRUE
+California,San Bernardino,81328,San Bernardino,"2,180,085",TRUE
+California,San Diego,69231,San Diego,"3,338,330",TRUE
+California,San Francisco,14251,San Francisco,"881,549",TRUE
+California,San Joaquin,24450,San Joaquin,"762,148",TRUE
+California,San Luis Obispo,5486,San Luis Obispo,"283,111",TRUE
+California,San Mateo,12988,San Mateo,"766,573",TRUE
+California,Santa Barbara,10768,Santa Barbara,"446,499",TRUE
+California,Santa Clara,30025,Santa Clara,"1,927,852",TRUE
+California,Santa Cruz,3685,Santa Cruz,"273,213",TRUE
+California,Contra Costa,21959,Contra Costa,"1,153,526",TRUE
+California,Del Norte,259,Del Norte,"27,812",TRUE
+California,El Dorado,1899,El Dorado,"192,843",TRUE
+California,San Benito,1694,San Benito,"62,808",TRUE
 California,Alameda,27223,Alameda,"1,671,329",TRUE
 California,Alpine,39,Alpine,"1,129",TRUE
 California,Amador,455,Amador,"39,752",TRUE
@@ -611,6 +242,17 @@ California,Tuolumne,675,Tuolumne,"54,478",TRUE
 California,Ventura,17300,Ventura,"846,006",TRUE
 California,Yolo,4050,Yolo,"220,500",TRUE
 California,Yuba,1706,Yuba,"78,668",TRUE
+Colorado,Elbert,475,Elbert,"26,729",TRUE
+Colorado,El Paso,21308,El Paso,"720,403",TRUE
+Colorado,Lake,224,Lake,"8,127",TRUE
+Colorado,La Plata,753,La Plata,"56,221",TRUE
+Colorado,Clear Creek,159,Clear Creek,"9,700",TRUE
+Colorado,Kit Carson,247,Kit Carson,"7,097",TRUE
+Colorado,Las Animas,152,Las Animas,"14,506",TRUE
+Colorado,Rio Blanco,84,Rio Blanco,"6,324",TRUE
+Colorado,Rio Grande,188,Rio Grande,"11,267",TRUE
+Colorado,San Juan,19,San Juan,728,TRUE
+Colorado,San Miguel,174,San Miguel,"8,179",TRUE
 Colorado,Adams,25092,Adams,"517,421",TRUE
 Colorado,Alamosa,500,Alamosa,"16,233",TRUE
 Colorado,Arapahoe,22728,Arapahoe,"656,590",TRUE
@@ -664,14 +306,26 @@ Colorado,Teller,503,Teller,"25,388",TRUE
 Colorado,Washington,182,Washington,"4,908",TRUE
 Colorado,Weld,11368,Weld,"324,492",TRUE
 Colorado,Yuma,284,Yuma,"10,019",TRUE
+Connecticut,New Haven,25248,New Haven,"854,757",TRUE
+Connecticut,New London,5352,New London,"265,206",TRUE
 Connecticut,Fairfield,33648,Fairfield,"943,332",TRUE
 Connecticut,Hartford,25182,Hartford,"891,720",TRUE
 Connecticut,Litchfield,3602,Litchfield,"180,333",TRUE
 Connecticut,Middlesex,3145,Middlesex,"162,436",TRUE
 Connecticut,Tolland,2665,Tolland,"150,721",TRUE
 Connecticut,Windham,2161,Windham,"116,782",TRUE
+Delaware,New Castle,16900,New Castle,"558,753",TRUE
 Delaware,Kent,4324,Kent,"180,786",TRUE
 Delaware,Sussex,9493,Sussex,"234,225",TRUE
+District of Columbia,District of Columbia,19808,District of Columbia,"705,749",TRUE
+Florida,St. Johns,7881,St. Johns,"264,672",TRUE
+Florida,St. Lucie,10148,St. Lucie,"328,297",TRUE
+Florida,Santa Rosa,6903,Santa Rosa,"184,313",TRUE
+Florida,Sarasota,12121,Sarasota,"433,742",TRUE
+Florida,Seminole,11993,Seminole,"471,826",TRUE
+Florida,Indian River,4668,Indian River,"159,923",TRUE
+Florida,Miami-Dade,211257,Miami-Dade,"2,716,940",TRUE
+Florida,Palm Beach,60729,Palm Beach,"1,496,770",TRUE
 Florida,Alachua,12176,Alachua,"269,043",TRUE
 Florida,Baker,1949,Baker,"29,210",TRUE
 Florida,Bay,8013,Bay,"174,705",TRUE
@@ -731,6 +385,15 @@ Florida,Volusia,14811,Volusia,"553,284",TRUE
 Florida,Wakulla,1537,Wakulla,"33,739",TRUE
 Florida,Walton,3411,Walton,"74,071",TRUE
 Florida,Washington,1440,Washington,"25,473",TRUE
+Georgia,Decatur,1551,Decatur,"26,404",TRUE
+Georgia,DeKalb,25917,DeKalb,"759,297",TRUE
+Georgia,McDuffie,909,McDuffie,"21,312",TRUE
+Georgia,McIntosh,365,McIntosh,"14,378",TRUE
+Georgia,Macon,321,Macon,"12,947",TRUE
+Georgia,Madison,1047,Madison,"29,880",TRUE
+Georgia,Marion,239,Marion,"8,359",TRUE
+Georgia,Ben Hill,982,Ben Hill,"16,700",TRUE
+Georgia,Jeff Davis,943,Jeff Davis,"15,115",TRUE
 Georgia,Appling,1315,Appling,"18,386",TRUE
 Georgia,Atkinson,575,Atkinson,"8,165",TRUE
 Georgia,Bacon,744,Bacon,"11,164",TRUE
@@ -886,6 +549,9 @@ Hawaii,Honolulu,14676,Honolulu,"974,563",TRUE
 Hawaii,Kalawao,0,Kalawao,86,TRUE
 Hawaii,Kauai,88,Kauai,"72,293",TRUE
 Hawaii,Maui,742,Maui,"167,417",TRUE
+Idaho,Bear Lake,157,Bear Lake,"6,125",TRUE
+Idaho,Nez Perce,1990,Nez Perce,"40,408",TRUE
+Idaho,Twin Falls,6312,Twin Falls,"86,878",TRUE
 Idaho,Ada,23065,Ada,"481,587",TRUE
 Idaho,Adams,88,Adams,"4,294",TRUE
 Idaho,Bannock,3792,Bannock,"87,808",TRUE
@@ -927,6 +593,28 @@ Idaho,Shoshone,452,Shoshone,"12,882",TRUE
 Idaho,Teton,474,Teton,"12,142",TRUE
 Idaho,Valley,210,Valley,"11,392",TRUE
 Idaho,Washington,659,Washington,"10,194",TRUE
+Illinois,DeKalb,4415,DeKalb,"104,897",TRUE
+Illinois,De Witt,554,De Witt,"15,638",TRUE
+Illinois,Lake,33260,Lake,"696,535",TRUE
+Illinois,LaSalle,5331,LaSalle,"108,669",TRUE
+Illinois,McDonough,1433,McDonough,"29,682",TRUE
+Illinois,McHenry,12483,McHenry,"307,774",TRUE
+Illinois,McLean,7408,McLean,"171,517",TRUE
+Illinois,Macon,5774,Macon,"104,009",TRUE
+Illinois,Macoupin,1828,Macoupin,"44,926",TRUE
+Illinois,Madison,12394,Madison,"262,966",TRUE
+Illinois,Marion,2135,Marion,"37,205",TRUE
+Illinois,Marshall,320,Marshall,"11,438",TRUE
+Illinois,Mason,580,Mason,"13,359",TRUE
+Illinois,Massac,422,Massac,"13,772",TRUE
+Illinois,St. Clair,11447,St. Clair,"259,686",TRUE
+Illinois,Saline,999,Saline,"23,491",TRUE
+Illinois,Sangamon,8669,Sangamon,"194,672",TRUE
+Illinois,Schuyler,222,Schuyler,"6,768",TRUE
+Illinois,Scott,207,Scott,"4,951",TRUE
+Illinois,Shelby,1161,Shelby,"21,634",TRUE
+Illinois,Jo Daviess,949,Jo Daviess,"21,235",TRUE
+Illinois,Rock Island,7606,Rock Island,"141,879",TRUE
 Illinois,Adams,4216,Adams,"65,435",TRUE
 Illinois,Alexander,233,Alexander,"5,761",TRUE
 Illinois,Bond,898,Bond,"16,426",TRUE
@@ -1007,6 +695,15 @@ Illinois,Will,33564,Will,"690,743",TRUE
 Illinois,Williamson,3127,Williamson,"66,597",TRUE
 Illinois,Winnebago,16786,Winnebago,"282,572",TRUE
 Illinois,Woodford,1444,Woodford,"38,459",TRUE
+Indiana,Dearborn,1934,Dearborn,"49,458",TRUE
+Indiana,Decatur,1162,Decatur,"26,559",TRUE
+Indiana,DeKalb,1617,DeKalb,"43,475",TRUE
+Indiana,Lake,25026,Lake,"485,493",TRUE
+Indiana,LaPorte,4194,LaPorte,"109,888",TRUE
+Indiana,St. Joseph,15539,St. Joseph,"271,826",TRUE
+Indiana,Scott,919,Scott,"23,873",TRUE
+Indiana,Shelby,1608,Shelby,"44,729",TRUE
+Indiana,Spencer,742,Spencer,"20,277",TRUE
 Indiana,Adams,1539,Adams,"35,777",TRUE
 Indiana,Allen,16218,Allen,"379,299",TRUE
 Indiana,Bartholomew,2789,Bartholomew,"83,779",TRUE
@@ -1090,6 +787,13 @@ Indiana,Wayne,2771,Wayne,"65,884",TRUE
 Indiana,Wells,1100,Wells,"28,296",TRUE
 Indiana,White,1095,White,"24,102",TRUE
 Indiana,Whitley,1195,Whitley,"33,964",TRUE
+Iowa,Black Hawk,10005,Black Hawk,"131,228",TRUE
+Iowa,Buena Vista,2865,Buena Vista,"19,620",TRUE
+Iowa,Cerro Gordo,3110,Cerro Gordo,"42,450",TRUE
+Iowa,Des Moines,2591,Des Moines,"38,967",TRUE
+Iowa,O'Brien,1163,O'Brien,"13,753",TRUE
+Iowa,Palo Alto,585,Palo Alto,"8,886",TRUE
+Iowa,Van Buren,322,Van Buren,"7,044",TRUE
 Iowa,Adair,396,Adair,"7,152",TRUE
 Iowa,Adams,150,Adams,"3,602",TRUE
 Iowa,Allamakee,688,Allamakee,"13,687",TRUE
@@ -1182,6 +886,9 @@ Iowa,Winneshiek,860,Winneshiek,"19,991",TRUE
 Iowa,Woodbury,9706,Woodbury,"103,107",TRUE
 Iowa,Worth,318,Worth,"7,381",TRUE
 Iowa,Wright,1118,Wright,"12,562",TRUE
+Kansas,McPherson,1157,McPherson,"28,542",TRUE
+Kansas,Marion,373,Marion,"11,884",TRUE
+Kansas,Marshall,362,Marshall,"9,707",TRUE
 Kansas,Allen,298,Allen,"12,369",TRUE
 Kansas,Anderson,343,Anderson,"7,858",TRUE
 Kansas,Atchison,777,Atchison,"16,073",TRUE
@@ -1284,6 +991,15 @@ Kansas,Wichita,124,Wichita,"2,119",TRUE
 Kansas,Wilson,242,Wilson,"8,525",TRUE
 Kansas,Woodson,56,Woodson,"3,138",TRUE
 Kansas,Wyandotte,10535,Wyandotte,"165,429",TRUE
+Kentucky,McCracken,2173,McCracken,"65,418",TRUE
+Kentucky,McCreary,331,McCreary,"17,231",TRUE
+Kentucky,McLean,343,McLean,"9,207",TRUE
+Kentucky,Madison,3281,Madison,"92,987",TRUE
+Kentucky,Magoffin,353,Magoffin,"12,161",TRUE
+Kentucky,Marion,827,Marion,"19,273",TRUE
+Kentucky,Marshall,811,Marshall,"31,100",TRUE
+Kentucky,Martin,358,Martin,"11,195",TRUE
+Kentucky,Mason,321,Mason,"17,070",TRUE
 Kentucky,Adair,673,Adair,"19,202",TRUE
 Kentucky,Allen,658,Allen,"21,315",TRUE
 Kentucky,Anderson,435,Anderson,"22,747",TRUE
@@ -1395,6 +1111,70 @@ Kentucky,Webster,511,Webster,"12,942",TRUE
 Kentucky,Whitley,1319,Whitley,"36,264",TRUE
 Kentucky,Wolfe,149,Wolfe,"7,157",TRUE
 Kentucky,Woodford,632,Woodford,"26,734",TRUE
+Louisiana,Lafayette,11146,Lafayette,"244,390",TRUE
+Louisiana,Lafourche,4455,Lafourche,"97,614",TRUE
+Louisiana,LaSalle,819,LaSalle,"14,892",TRUE
+Louisiana,Acadia,3678,Acadia,"62,045",TRUE
+Louisiana,Allen,2046,Allen,"25,627",TRUE
+Louisiana,Ascension,5325,Ascension,"126,604",TRUE
+Louisiana,Assumption,972,Assumption,"21,891",TRUE
+Louisiana,Avoyelles,1997,Avoyelles,"40,144",TRUE
+Louisiana,Beauregard,1270,Beauregard,"37,497",TRUE
+Louisiana,Bienville,726,Bienville,"13,241",TRUE
+Louisiana,Bossier,5774,Bossier,"127,039",TRUE
+Louisiana,Caddo,12329,Caddo,"240,204",TRUE
+Louisiana,Calcasieu,9924,Calcasieu,"203,436",TRUE
+Louisiana,Caldwell,593,Caldwell,"9,918",TRUE
+Louisiana,Cameron,272,Cameron,"6,973",TRUE
+Louisiana,Catahoula,582,Catahoula,"9,494",TRUE
+Louisiana,Claiborne,715,Claiborne,"15,670",TRUE
+Louisiana,Concordia,911,Concordia,"19,259",TRUE
+Louisiana,De Soto,1178,De Soto,"27,463",TRUE
+Louisiana,East Baton Rouge,18764,East Baton Rouge,"440,059",TRUE
+Louisiana,East Carroll,670,East Carroll,"6,861",TRUE
+Louisiana,East Feliciana,2048,East Feliciana,"19,135",TRUE
+Louisiana,Evangeline,1753,Evangeline,"33,395",TRUE
+Louisiana,Franklin,1653,Franklin,"20,015",TRUE
+Louisiana,Grant,664,Grant,"22,389",TRUE
+Louisiana,Iberia,3446,Iberia,"69,830",TRUE
+Louisiana,Iberville,1799,Iberville,"32,511",TRUE
+Louisiana,Jackson,1098,Jackson,"15,744",TRUE
+Louisiana,Jefferson,20927,Jefferson,"432,493",TRUE
+Louisiana,Jefferson Davis,1603,Jefferson Davis,"31,368",TRUE
+Louisiana,Lincoln,2318,Lincoln,"46,742",TRUE
+Louisiana,Livingston,5456,Livingston,"140,789",TRUE
+Louisiana,Madison,1018,Madison,"10,951",TRUE
+Louisiana,Morehouse,1197,Morehouse,"24,874",TRUE
+Louisiana,Natchitoches,1909,Natchitoches,"38,158",TRUE
+Louisiana,Orleans,14978,Orleans,"390,144",TRUE
+Louisiana,Ouachita,9267,Ouachita,"153,279",TRUE
+Louisiana,Plaquemines,1057,Plaquemines,"23,197",TRUE
+Louisiana,Pointe Coupee,1302,Pointe Coupee,"21,730",TRUE
+Louisiana,Rapides,5948,Rapides,"129,648",TRUE
+Louisiana,Red River,551,Red River,"8,442",TRUE
+Louisiana,Richland,1323,Richland,"20,122",TRUE
+Louisiana,Sabine,1320,Sabine,"23,884",TRUE
+Louisiana,St. Bernard,1715,St. Bernard,"47,244",TRUE
+Louisiana,St. Charles,2391,St. Charles,"53,100",TRUE
+Louisiana,St. Helena,501,St. Helena,"10,132",TRUE
+Louisiana,St. James,934,St. James,"21,096",TRUE
+Louisiana,St. John the Baptist,1873,St. John the Baptist,"42,837",TRUE
+Louisiana,St. Landry,4597,St. Landry,"82,124",TRUE
+Louisiana,St. Martin,2545,St. Martin,"53,431",TRUE
+Louisiana,St. Mary,2271,St. Mary,"49,348",TRUE
+Louisiana,St. Tammany,9514,St. Tammany,"260,419",TRUE
+Louisiana,Tangipahoa,6190,Tangipahoa,"134,758",TRUE
+Louisiana,Tensas,205,Tensas,"4,334",TRUE
+Louisiana,Terrebonne,4303,Terrebonne,"110,461",TRUE
+Louisiana,Union,1338,Union,"22,108",TRUE
+Louisiana,Vermilion,2404,Vermilion,"59,511",TRUE
+Louisiana,Vernon,1327,Vernon,"47,429",TRUE
+Louisiana,Washington,2150,Washington,"46,194",TRUE
+Louisiana,Webster,1844,Webster,"38,340",TRUE
+Louisiana,West Baton Rouge,1228,West Baton Rouge,"26,465",TRUE
+Louisiana,West Carroll,556,West Carroll,"10,830",TRUE
+Louisiana,West Feliciana,779,West Feliciana,"15,568",TRUE
+Louisiana,Winn,906,Winn,"13,904",TRUE
 Maine,Androscoggin,1309,Androscoggin,"108,277",TRUE
 Maine,Aroostook,91,Aroostook,"67,055",TRUE
 Maine,Cumberland,3458,Cumberland,"295,003",TRUE
@@ -1411,6 +1191,12 @@ Maine,Somerset,387,Somerset,"50,484",TRUE
 Maine,Waldo,202,Waldo,"39,715",TRUE
 Maine,Washington,172,Washington,"31,379",TRUE
 Maine,York,1965,York,"207,641",TRUE
+Maryland,St. Mary's,1851,St. Mary's,"113,510",TRUE
+Maryland,Somerset,636,Somerset,"25,616",TRUE
+Maryland,Anne Arundel,15103,Anne Arundel,"579,234",TRUE
+Maryland,Baltimore City,22010,Baltimore City,"593,490",TRUE
+Maryland,Prince George's,38053,Prince George's,"909,327",TRUE
+Maryland,Queen Anne's,990,Queen Anne's,"50,381",TRUE
 Maryland,Allegany,2115,Allegany,"70,416",TRUE
 Maryland,Baltimore,26088,Baltimore,"827,370",TRUE
 Maryland,Calvert,1439,Calvert,"92,525",TRUE
@@ -1429,6 +1215,7 @@ Maryland,Talbot,733,Talbot,"37,181",TRUE
 Maryland,Washington,3409,Washington,"151,049",TRUE
 Maryland,Wicomico,3071,Wicomico,"103,609",TRUE
 Maryland,Worcester,1403,Worcester,"52,276",TRUE
+Massachusetts,Dukes and Nantucket,486,Dukes and Nantucket,"28,731",TRUE
 Massachusetts,Barnstable,2488,Barnstable,"212,990",TRUE
 Massachusetts,Berkshire,1201,Berkshire,"124,944",TRUE
 Massachusetts,Bristol,17337,Bristol,"565,217",TRUE
@@ -1441,6 +1228,14 @@ Massachusetts,Norfolk,14569,Norfolk,"706,775",TRUE
 Massachusetts,Plymouth,13505,Plymouth,"521,202",TRUE
 Massachusetts,Suffolk,34270,Suffolk,"803,907",TRUE
 Massachusetts,Worcester,22038,Worcester,"830,622",TRUE
+Michigan,St. Clair,3527,St. Clair,"159,128",TRUE
+Michigan,St. Joseph,2228,St. Joseph,"60,964",TRUE
+Michigan,Sanilac,517,Sanilac,"41,170",TRUE
+Michigan,Schoolcraft,163,Schoolcraft,"8,094",TRUE
+Michigan,Shiawassee,1573,Shiawassee,"68,122",TRUE
+Michigan,Grand Traverse,1517,Grand Traverse,"93,088",TRUE
+Michigan,Presque Isle,184,Presque Isle,"12,592",TRUE
+Michigan,Van Buren,2274,Van Buren,"75,677",TRUE
 Michigan,Alcona,124,Alcona,"10,405",TRUE
 Michigan,Alger,200,Alger,"9,108",TRUE
 Michigan,Allegan,3212,Allegan,"118,081",TRUE
@@ -1516,6 +1311,20 @@ Michigan,Tuscola,1394,Tuscola,"52,245",TRUE
 Michigan,Washtenaw,8492,Washtenaw,"367,601",TRUE
 Michigan,Wayne,56100,Wayne,"1,749,343",TRUE
 Michigan,Wexford,460,Wexford,"33,631",TRUE
+Minnesota,St. Louis,6766,St. Louis,"199,070",TRUE
+Minnesota,Scott,6884,Scott,"149,013",TRUE
+Minnesota,Sherburne,4734,Sherburne,"97,238",TRUE
+Minnesota,Sibley,632,Sibley,"14,865",TRUE
+Minnesota,Big Stone,260,Big Stone,"4,991",TRUE
+Minnesota,Blue Earth,3525,Blue Earth,"67,653",TRUE
+Minnesota,Crow Wing,2908,Crow Wing,"65,055",TRUE
+Minnesota,Lac qui Parle,295,Lac qui Parle,"6,623",TRUE
+Minnesota,Lake of the Woods,78,Lake of the Woods,"3,740",TRUE
+Minnesota,Le Sueur,1209,Le Sueur,"28,887",TRUE
+Minnesota,Mille Lacs,1201,Mille Lacs,"26,277",TRUE
+Minnesota,Otter Tail,2328,Otter Tail,"58,746",TRUE
+Minnesota,Red Lake,167,Red Lake,"4,055",TRUE
+Minnesota,Yellow Medicine,508,Yellow Medicine,"9,709",TRUE
 Minnesota,Aitkin,594,Aitkin,"15,886",TRUE
 Minnesota,Anoka,18296,Anoka,"356,921",TRUE
 Minnesota,Becker,1557,Becker,"34,423",TRUE
@@ -1589,6 +1398,8 @@ Minnesota,Watonwan,744,Watonwan,"10,897",TRUE
 Minnesota,Wilkin,299,Wilkin,"6,207",TRUE
 Minnesota,Winona,2334,Winona,"50,484",TRUE
 Minnesota,Wright,6046,Wright,"138,377",TRUE
+Mississippi,Jefferson Davis,528,Jefferson Davis,"11,128",TRUE
+Mississippi,Pearl River,1385,Pearl River,"55,535",TRUE
 Mississippi,Adams,1318,Adams,"30,693",TRUE
 Mississippi,Alcorn,1410,Alcorn,"36,953",TRUE
 Mississippi,Amite,486,Amite,"12,297",TRUE
@@ -1669,6 +1480,19 @@ Mississippi,Wilkinson,368,Wilkinson,"8,630",TRUE
 Mississippi,Winston,1116,Winston,"17,955",TRUE
 Mississippi,Yalobusha,659,Yalobusha,"12,108",TRUE
 Mississippi,Yazoo,1455,Yazoo,"29,690",TRUE
+Missouri,McDonald,1340,McDonald,"22,837",TRUE
+Missouri,Macon,544,Macon,"15,117",TRUE
+Missouri,Madison,736,Madison,"12,088",TRUE
+Missouri,Maries,324,Maries,"8,697",TRUE
+Missouri,Marion,1549,Marion,"28,530",TRUE
+Missouri,Cape Girardeau,4407,Cape Girardeau,"78,871",TRUE
+Missouri,New Madrid,1204,New Madrid,"17,076",TRUE
+Missouri,St. Charles,17328,St. Charles,"402,022",TRUE
+Missouri,St. Clair,282,St. Clair,"9,397",TRUE
+Missouri,St. Francois,4499,St. Francois,"67,215",TRUE
+Missouri,St. Louis,44897,St. Louis,"994,205",TRUE
+Missouri,St. Louis City,11393,St. Louis City,"300,576",TRUE
+Missouri,Ste. Genevieve,909,Ste. Genevieve,"17,894",TRUE
 Missouri,Adair,976,Adair,"25,343",TRUE
 Missouri,Andrew,681,Andrew,"17,712",TRUE
 Missouri,Atchison,180,Atchison,"5,143",TRUE
@@ -1771,6 +1595,16 @@ Missouri,Wayne,441,Wayne,"12,873",TRUE
 Missouri,Webster,1644,Webster,"39,592",TRUE
 Missouri,Worth,58,Worth,"2,013",TRUE
 Missouri,Wright,717,Wright,"18,289",TRUE
+Montana,McCone,82,McCone,"1,664",TRUE
+Montana,Madison,369,Madison,"8,600",TRUE
+Montana,Big Horn,1738,Big Horn,"13,319",TRUE
+Montana,Deer Lodge,656,Deer Lodge,"9,140",TRUE
+Montana,Golden Valley,22,Golden Valley,821,TRUE
+Montana,Judith Basin,46,Judith Basin,"2,007",TRUE
+Montana,Lewis and Clark,2152,Lewis and Clark,"69,432",TRUE
+Montana,Powder River,79,Powder River,"1,682",TRUE
+Montana,Silver Bow,1639,Silver Bow,"34,915",TRUE
+Montana,Sweet Grass,212,Sweet Grass,"3,737",TRUE
 Montana,Beaverhead,510,Beaverhead,"9,453",TRUE
 Montana,Blaine,476,Blaine,"6,681",TRUE
 Montana,Broadwater,157,Broadwater,"6,237",TRUE
@@ -1817,6 +1651,12 @@ Montana,Valley,524,Valley,"7,396",TRUE
 Montana,Wheatland,94,Wheatland,"2,126",TRUE
 Montana,Wibaux,73,Wibaux,969,TRUE
 Montana,Yellowstone,9798,Yellowstone,"161,300",TRUE
+Nebraska,McPherson,15,McPherson,494,TRUE
+Nebraska,Madison,2808,Madison,"35,099",TRUE
+Nebraska,Box Butte,517,Box Butte,"10,783",TRUE
+Nebraska,Keya Paha,17,Keya Paha,806,TRUE
+Nebraska,Red Willow,507,Red Willow,"10,724",TRUE
+Nebraska,Scotts Bluff,2493,Scotts Bluff,"35,618",TRUE
 Nebraska,Adams,1449,Adams,"31,363",TRUE
 Nebraska,Antelope,291,Antelope,"6,298",TRUE
 Nebraska,Arthur,14,Arthur,463,TRUE
@@ -1904,6 +1744,8 @@ Nebraska,Wayne,674,Wayne,"9,385",TRUE
 Nebraska,Webster,173,Webster,"3,487",TRUE
 Nebraska,Wheeler,11,Wheeler,783,TRUE
 Nebraska,York,875,York,"13,679",TRUE
+Nevada,Carson City,1545,Carson City,"55,916",TRUE
+Nevada,White Pine,218,White Pine,"9,580",TRUE
 Nevada,Churchill,638,Churchill,"24,909",TRUE
 Nevada,Clark,101933,Clark,"2,266,715",TRUE
 Nevada,Douglas,516,Douglas,"48,905",TRUE
@@ -1929,6 +1771,7 @@ New Hampshire,Merrimack,1439,Merrimack,"151,391",TRUE
 New Hampshire,Rockingham,4013,Rockingham,"309,769",TRUE
 New Hampshire,Strafford,1367,Strafford,"130,633",TRUE
 New Hampshire,Sullivan,186,Sullivan,"43,146",TRUE
+New Jersey,Cape May,1498,Cape May,"92,039",TRUE
 New Jersey,Atlantic,7023,Atlantic,"263,670",TRUE
 New Jersey,Bergen,31006,Bergen,"932,202",TRUE
 New Jersey,Burlington,11411,Burlington,"445,349",TRUE
@@ -1949,6 +1792,14 @@ New Jersey,Somerset,8146,Somerset,"328,934",TRUE
 New Jersey,Sussex,2245,Sussex,"140,488",TRUE
 New Jersey,Union,25437,Union,"556,341",TRUE
 New Jersey,Warren,2181,Warren,"105,267",TRUE
+New Mexico,Sandoval,3797,Sandoval,"146,748",TRUE
+New Mexico,San Juan,4807,San Juan,"123,958",TRUE
+New Mexico,San Miguel,340,San Miguel,"27,277",TRUE
+New Mexico,De Baca,30,De Baca,"1,748",TRUE
+New Mexico,Dona Ana,11567,Dona Ana,"218,195",TRUE
+New Mexico,Los Alamos,106,Los Alamos,"19,369",TRUE
+New Mexico,Rio Arriba,1028,Rio Arriba,"38,921",TRUE
+New Mexico,Santa Fe,3977,Santa Fe,"150,358",TRUE
 New Mexico,Bernalillo,20539,Bernalillo,"679,121",TRUE
 New Mexico,Catron,29,Catron,"3,527",TRUE
 New Mexico,Chaves,3726,Chaves,"64,615",TRUE
@@ -1974,6 +1825,13 @@ New Mexico,Taos,636,Taos,"32,723",TRUE
 New Mexico,Torrance,205,Torrance,"15,461",TRUE
 New Mexico,Union,90,Union,"4,059",TRUE
 New Mexico,Valencia,2155,Valencia,"76,688",TRUE
+New York,St. Lawrence,649,St. Lawrence,"107,740",TRUE
+New York,Saratoga,1842,Saratoga,"229,863",TRUE
+New York,Schenectady,1997,Schenectady,"155,299",TRUE
+New York,Schoharie,162,Schoharie,"30,999",TRUE
+New York,Schuyler,248,Schuyler,"17,807",TRUE
+New York,Seneca,232,Seneca,"34,016",TRUE
+New York,New York,41620,New York,"1,628,706",TRUE
 New York,Albany,4906,Albany,"305,506",TRUE
 New York,Allegany,758,Allegany,"46,091",TRUE
 New York,Bronx,60233,Bronx,"1,418,207",TRUE
@@ -2029,6 +1887,11 @@ New York,Wayne,858,Wayne,"89,918",TRUE
 New York,Westchester,46064,Westchester,"967,506",TRUE
 New York,Wyoming,384,Wyoming,"39,859",TRUE
 New York,Yates,220,Yates,"24,913",TRUE
+North Carolina,McDowell,1647,McDowell,"45,756",TRUE
+North Carolina,Macon,886,Macon,"35,858",TRUE
+North Carolina,Madison,428,Madison,"21,755",TRUE
+North Carolina,Martin,774,Martin,"22,440",TRUE
+North Carolina,New Hanover,6421,New Hanover,"234,473",TRUE
 North Carolina,Alamance,6429,Alamance,"169,509",TRUE
 North Carolina,Alexander,1396,Alexander,"37,497",TRUE
 North Carolina,Alleghany,370,Alleghany,"11,137",TRUE
@@ -2124,6 +1987,8 @@ North Carolina,Wilkes,2422,Wilkes,"68,412",TRUE
 North Carolina,Wilson,3709,Wilson,"81,801",TRUE
 North Carolina,Yadkin,1341,Yadkin,"37,667",TRUE
 North Carolina,Yancey,476,Yancey,"18,069",TRUE
+North Dakota,Golden Valley,146,Golden Valley,"1,761",TRUE
+North Dakota,Grand Forks,7475,Grand Forks,"69,451",TRUE
 North Dakota,Adams,149,Adams,"2,216",TRUE
 North Dakota,Barnes,865,Barnes,"10,415",TRUE
 North Dakota,Benson,699,Benson,"6,832",TRUE
@@ -2175,6 +2040,7 @@ North Dakota,Walsh,1310,Walsh,"10,641",TRUE
 North Dakota,Ward,6802,Ward,"67,641",TRUE
 North Dakota,Wells,283,Wells,"3,834",TRUE
 North Dakota,Williams,2759,Williams,"37,589",TRUE
+Ohio,Van Wert,811,Van Wert,"28,275",TRUE
 Ohio,Adams,678,Adams,"27,698",TRUE
 Ohio,Allen,4353,Allen,"102,351",TRUE
 Ohio,Ashland,920,Ashland,"53,484",TRUE
@@ -2262,6 +2128,14 @@ Ohio,Wayne,2933,Wayne,"115,710",TRUE
 Ohio,Williams,953,Williams,"36,692",TRUE
 Ohio,Wood,4083,Wood,"130,817",TRUE
 Ohio,Wyandot,623,Wyandot,"21,772",TRUE
+Oklahoma,McClain,2097,McClain,"40,474",TRUE
+Oklahoma,McCurtain,2143,McCurtain,"32,832",TRUE
+Oklahoma,McIntosh,719,McIntosh,"19,596",TRUE
+Oklahoma,Major,367,Major,"7,629",TRUE
+Oklahoma,Marshall,581,Marshall,"16,931",TRUE
+Oklahoma,Mayes,1358,Mayes,"41,100",TRUE
+Oklahoma,Le Flore,2213,Le Flore,"49,853",TRUE
+Oklahoma,Roger Mills,134,Roger Mills,"3,583",TRUE
 Oklahoma,Adair,1115,Adair,"22,194",TRUE
 Oklahoma,Alfalfa,271,Alfalfa,"5,702",TRUE
 Oklahoma,Atoka,748,Atoka,"13,758",TRUE
@@ -2331,6 +2205,7 @@ Oklahoma,Washington,1749,Washington,"51,527",TRUE
 Oklahoma,Washita,302,Washita,"10,916",TRUE
 Oklahoma,Woods,410,Woods,"8,793",TRUE
 Oklahoma,Woodward,1644,Woodward,"20,211",TRUE
+Oregon,Hood River,349,Hood River,"23,382",TRUE
 Oregon,Baker,248,Baker,"16,124",TRUE
 Oregon,Benton,679,Benton,"93,053",TRUE
 Oregon,Clackamas,5025,Clackamas,"418,187",TRUE
@@ -2438,6 +2313,9 @@ Rhode Island,Kent,4152,Kent,"164,292",TRUE
 Rhode Island,Newport,1046,Newport,"82,082",TRUE
 Rhode Island,Providence,31512,Providence,"638,931",TRUE
 Rhode Island,Washington,1891,Washington,"125,577",TRUE
+South Carolina,McCormick,315,McCormick,"9,463",TRUE
+South Carolina,Marion,1277,Marion,"30,657",TRUE
+South Carolina,Marlboro,1313,Marlboro,"26,118",TRUE
 South Carolina,Abbeville,901,Abbeville,"24,527",TRUE
 South Carolina,Aiken,5950,Aiken,"170,872",TRUE
 South Carolina,Allendale,445,Allendale,"8,688",TRUE
@@ -2481,6 +2359,13 @@ South Carolina,Sumter,4009,Sumter,"106,721",TRUE
 South Carolina,Union,976,Union,"27,316",TRUE
 South Carolina,Williamsburg,1588,Williamsburg,"30,368",TRUE
 South Carolina,York,8738,York,"280,979",TRUE
+South Dakota,McCook,546,McCook,"5,586",TRUE
+South Dakota,McPherson,122,McPherson,"2,379",TRUE
+South Dakota,Marshall,138,Marshall,"4,935",TRUE
+South Dakota,Bon Homme,1288,Bon Homme,"6,901",TRUE
+South Dakota,Charles Mix,703,Charles Mix,"9,292",TRUE
+South Dakota,Fall River,340,Fall River,"6,713",TRUE
+South Dakota,Oglala Lakota,1498,Oglala Lakota,"14,177",TRUE
 South Dakota,Aurora,321,Aurora,"2,751",TRUE
 South Dakota,Beadle,2093,Beadle,"18,453",TRUE
 South Dakota,Bennett,293,Bennett,"3,365",TRUE
@@ -2540,6 +2425,16 @@ South Dakota,Union,1127,Union,"15,932",TRUE
 South Dakota,Walworth,420,Walworth,"5,435",TRUE
 South Dakota,Yankton,1450,Yankton,"22,814",TRUE
 South Dakota,Ziebach,155,Ziebach,"2,756",TRUE
+Tennessee,Decatur,885,Decatur,"11,663",TRUE
+Tennessee,DeKalb,1056,DeKalb,"20,490",TRUE
+Tennessee,McMinn,2271,McMinn,"53,794",TRUE
+Tennessee,McNairy,1357,McNairy,"25,694",TRUE
+Tennessee,Macon,1726,Macon,"24,602",TRUE
+Tennessee,Madison,4964,Madison,"97,984",TRUE
+Tennessee,Marion,1014,Marion,"28,907",TRUE
+Tennessee,Marshall,1577,Marshall,"34,375",TRUE
+Tennessee,Maury,5266,Maury,"96,387",TRUE
+Tennessee,Van Buren,317,Van Buren,"5,872",TRUE
 Tennessee,Anderson,2589,Anderson,"76,978",TRUE
 Tennessee,Bedford,2412,Bedford,"49,713",TRUE
 Tennessee,Benton,718,Benton,"16,160",TRUE
@@ -2625,6 +2520,39 @@ Tennessee,Weakley,2024,Weakley,"33,328",TRUE
 Tennessee,White,1632,White,"27,345",TRUE
 Tennessee,Williamson,10231,Williamson,"238,412",TRUE
 Tennessee,Wilson,6681,Wilson,"144,657",TRUE
+Texas,Deaf Smith,1219,Deaf Smith,"18,546",TRUE
+Texas,Delta,46,Delta,"5,331",TRUE
+Texas,Denton,18141,Denton,"887,207",TRUE
+Texas,DeWitt,1167,DeWitt,"20,160",TRUE
+Texas,Ellis,6070,Ellis,"184,826",TRUE
+Texas,El Paso,79162,El Paso,"839,238",TRUE
+Texas,Lamar,2385,Lamar,"49,859",TRUE
+Texas,Lamb,876,Lamb,"12,893",TRUE
+Texas,Lampasas,356,Lampasas,"21,428",TRUE
+Texas,La Salle,388,La Salle,"7,520",TRUE
+Texas,McCulloch,274,McCulloch,"7,984",TRUE
+Texas,McLennan,12947,McLennan,"256,623",TRUE
+Texas,McMullen,27,McMullen,743,TRUE
+Texas,Madison,854,Madison,"14,284",TRUE
+Texas,Marion,182,Marion,"9,854",TRUE
+Texas,Martin,170,Martin,"5,771",TRUE
+Texas,Mason,133,Mason,"4,274",TRUE
+Texas,Matagorda,1199,Matagorda,"36,643",TRUE
+Texas,Maverick,4722,Maverick,"58,722",TRUE
+Texas,Fort Bend,19223,Fort Bend,"811,688",TRUE
+Texas,Jeff Davis,43,Jeff Davis,"2,274",TRUE
+Texas,Jim Hogg,206,Jim Hogg,"5,200",TRUE
+Texas,Jim Wells,1894,Jim Wells,"40,482",TRUE
+Texas,Live Oak,418,Live Oak,"12,207",TRUE
+Texas,Palo Pinto,882,Palo Pinto,"29,189",TRUE
+Texas,Red River,216,Red River,"12,023",TRUE
+Texas,San Augustine,256,San Augustine,"8,237",TRUE
+Texas,San Jacinto,250,San Jacinto,"28,859",TRUE
+Texas,San Patricio,1747,San Patricio,"66,730",TRUE
+Texas,San Saba,294,San Saba,"6,055",TRUE
+Texas,Tom Green,7954,Tom Green,"119,200",TRUE
+Texas,Val Verde,2932,Val Verde,"49,025",TRUE
+Texas,Van Zandt,1017,Van Zandt,"56,590",TRUE
 Texas,Anderson,3092,Anderson,"57,735",TRUE
 Texas,Andrews,940,Andrews,"18,705",TRUE
 Texas,Angelina,2515,Angelina,"86,715",TRUE
@@ -2846,6 +2774,9 @@ Texas,Yoakum,568,Yoakum,"8,713",TRUE
 Texas,Young,790,Young,"18,010",TRUE
 Texas,Zapata,427,Zapata,"14,179",TRUE
 Texas,Zavala,551,Zavala,"11,840",TRUE
+Utah,Box Elder,8634,Box Elder,"56,046",TRUE
+Utah,Salt Lake,71088,Salt Lake,"1,160,437",TRUE
+Utah,San Juan,970,San Juan,"15,308",TRUE
 Utah,Beaver,0,Beaver,"6,710",TRUE
 Utah,Cache,0,Cache,"128,289",TRUE
 Utah,Carbon,0,Carbon,"20,463",TRUE
@@ -2872,6 +2803,7 @@ Utah,Wasatch,1808,Wasatch,"34,091",TRUE
 Utah,Washington,13690,Washington,"177,556",TRUE
 Utah,Wayne,0,Wayne,"2,711",TRUE
 Utah,Weber,11350,Weber,"260,213",TRUE
+Vermont,Grand Isle,36,Grand Isle,"7,235",TRUE
 Vermont,Addison,157,Addison,"36,777",TRUE
 Vermont,Bennington,181,Bennington,"35,470",TRUE
 Vermont,Caledonia,92,Caledonia,"29,993",TRUE
@@ -2885,6 +2817,54 @@ Vermont,Rutland,205,Rutland,"58,191",TRUE
 Vermont,Washington,501,Washington,"58,409",TRUE
 Vermont,Windham,190,Windham,"42,222",TRUE
 Vermont,Windsor,163,Windsor,"55,062",TRUE
+Virginia,King and Queen,100,King and Queen,"7,025",TRUE
+Virginia,King George,354,King George,"26,836",TRUE
+Virginia,King William,263,King William,"17,148",TRUE
+Virginia,Harrisonburg,3319,Harrisonburg,"53,016",TRUE
+Virginia,Alexandria,4831,Alexandria,"159,428",TRUE
+Virginia,Bristol,473,Bristol,"16,762",TRUE
+Virginia,Buena Vista,209,Buena Vista,"6,478",TRUE
+Virginia,Charles City,127,Charles City,"6,963",TRUE
+Virginia,Charlottesville,1777,Charlottesville,"47,266",TRUE
+Virginia,Chesapeake,5799,Chesapeake,"244,835",TRUE
+Virginia,Colonial Heights,369,Colonial Heights,"17,370",TRUE
+Virginia,Covington,112,Covington,"5,538",TRUE
+Virginia,Danville,1492,Danville,"40,044",TRUE
+Virginia,Emporia,309,Emporia,"5,346",TRUE
+Virginia,Fairfax City,193,Fairfax City,"24,019",TRUE
+Virginia,Falls Church,88,Falls Church,"14,617",TRUE
+Virginia,Franklin City,533,Franklin City,"7,967",TRUE
+Virginia,Fredericksburg,643,Fredericksburg,"29,036",TRUE
+Virginia,Galax,518,Galax,"6,347",TRUE
+Virginia,Hampton,2506,Hampton,"134,510",TRUE
+Virginia,Hopewell,576,Hopewell,"22,529",TRUE
+Virginia,Isle of Wight,957,Isle of Wight,"37,109",TRUE
+Virginia,James City,1090,James City,"76,523",TRUE
+Virginia,Lexington,315,Lexington,"7,446",TRUE
+Virginia,Lynchburg,2446,Lynchburg,"82,168",TRUE
+Virginia,Manassas,2183,Manassas,"41,085",TRUE
+Virginia,Manassas Park,689,Manassas Park,"17,478",TRUE
+Virginia,Martinsville,608,Martinsville,"12,554",TRUE
+Virginia,New Kent,351,New Kent,"23,091",TRUE
+Virginia,Newport News,3688,Newport News,"179,225",TRUE
+Virginia,Norfolk,6144,Norfolk,"242,742",TRUE
+Virginia,Norton,65,Norton,"3,981",TRUE
+Virginia,Petersburg,1031,Petersburg,"31,346",TRUE
+Virginia,Poquoson,122,Poquoson,"12,271",TRUE
+Virginia,Portsmouth,3053,Portsmouth,"94,398",TRUE
+Virginia,Prince Edward,841,Prince Edward,"22,802",TRUE
+Virginia,Prince George,1348,Prince George,"38,353",TRUE
+Virginia,Prince William,16595,Prince William,"470,335",TRUE
+Virginia,Radford,1085,Radford,"18,249",TRUE
+Virginia,Richmond City,6215,Richmond City,"230,436",TRUE
+Virginia,Roanoke City,3772,Roanoke City,"99,143",TRUE
+Virginia,Salem,791,Salem,"25,301",TRUE
+Virginia,Staunton,548,Staunton,"24,932",TRUE
+Virginia,Suffolk,2582,Suffolk,"92,108",TRUE
+Virginia,Virginia Beach,9716,Virginia Beach,"449,974",TRUE
+Virginia,Waynesboro,502,Waynesboro,"22,630",TRUE
+Virginia,Williamsburg,275,Williamsburg,"14,954",TRUE
+Virginia,Winchester,847,Winchester,"28,078",TRUE
 Virginia,Accomack,1282,Accomack,"32,316",TRUE
 Virginia,Albemarle,1767,Albemarle,"109,330",TRUE
 Virginia,Alleghany,262,Alleghany,"14,860",TRUE
@@ -2970,6 +2950,10 @@ Virginia,Westmoreland,393,Westmoreland,"18,015",TRUE
 Virginia,Wise,1097,Wise,"37,383",TRUE
 Virginia,Wythe,530,Wythe,"28,684",TRUE
 Virginia,York,806,York,"68,280",TRUE
+Washington,Grays Harbor,904,Grays Harbor,"75,061",TRUE
+Washington,Pend Oreille,190,Pend Oreille,"13,724",TRUE
+Washington,San Juan,55,San Juan,"17,582",TRUE
+Washington,Walla Walla,1865,Walla Walla,"60,760",TRUE
 Washington,Adams,1232,Adams,"19,983",TRUE
 Washington,Asotin,535,Asotin,"22,582",TRUE
 Washington,Benton,6996,Benton,"204,390",TRUE
@@ -3005,6 +2989,10 @@ Washington,Wahkiakum,14,Wahkiakum,"4,488",TRUE
 Washington,Whatcom,2002,Whatcom,"229,247",TRUE
 Washington,Whitman,2150,Whitman,"50,104",TRUE
 Washington,Yakima,12747,Yakima,"250,873",TRUE
+West Virginia,McDowell,557,McDowell,"17,624",TRUE
+West Virginia,Marion,667,Marion,"56,072",TRUE
+West Virginia,Marshall,961,Marshall,"30,531",TRUE
+West Virginia,Mason,309,Mason,"26,516",TRUE
 West Virginia,Barbour,312,Barbour,"16,441",TRUE
 West Virginia,Berkeley,2544,Berkeley,"119,171",TRUE
 West Virginia,Boone,559,Boone,"21,457",TRUE
@@ -3056,6 +3044,15 @@ West Virginia,Wetzel,352,Wetzel,"15,065",TRUE
 West Virginia,Wirt,77,Wirt,"5,821",TRUE
 West Virginia,Wood,1950,Wood,"83,518",TRUE
 West Virginia,Wyoming,584,Wyoming,"20,394",TRUE
+Wisconsin,St. Croix,3990,St. Croix,"90,687",TRUE
+Wisconsin,Sauk,3252,Sauk,"64,442",TRUE
+Wisconsin,Sawyer,760,Sawyer,"16,558",TRUE
+Wisconsin,Shawano,3608,Shawano,"40,899",TRUE
+Wisconsin,Sheboygan,8447,Sheboygan,"115,340",TRUE
+Wisconsin,Eau Claire,7018,Eau Claire,"104,646",TRUE
+Wisconsin,Fond du Lac,8097,Fond du Lac,"103,403",TRUE
+Wisconsin,Green Lake,1310,Green Lake,"18,913",TRUE
+Wisconsin,La Crosse,7340,La Crosse,"118,016",TRUE
 Wisconsin,Adams,1006,Adams,"20,220",TRUE
 Wisconsin,Ashland,584,Ashland,"15,562",TRUE
 Wisconsin,Barron,3186,Barron,"45,244",TRUE
@@ -3119,6 +3116,8 @@ Wisconsin,Waupaca,3871,Waupaca,"50,990",TRUE
 Wisconsin,Waushara,1713,Waushara,"24,443",TRUE
 Wisconsin,Winnebago,13287,Winnebago,"171,907",TRUE
 Wisconsin,Wood,3884,Wood,"72,999",TRUE
+Wyoming,Big Horn,418,Big Horn,"11,790",TRUE
+Wyoming,Hot Springs,117,Hot Springs,"4,413",TRUE
 Wyoming,Albany,2817,Albany,"38,880",TRUE
 Wyoming,Campbell,2470,Campbell,"46,341",TRUE
 Wyoming,Carbon,556,Carbon,"14,800",TRUE
