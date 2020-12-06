@@ -21,6 +21,7 @@ output:
 #install.packages("png")
 #install.packages("ggrepel")
 #install.packages("scales")
+#install.packages("RCurl")
 
 library(dplyr)
 library(ggplot2)
