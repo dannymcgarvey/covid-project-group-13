@@ -85,7 +85,7 @@ plot(rate_of_change, type="l", main = "Change in weekly total of US Covid-19 Cas
 abline(h=0)
 
 # create A line and label for each holiday
-# haloween, election day, and veterans day all occur in a 2-week time period, so we group them together starting from Haloween
+# Halloween, election day, and veterans day all occur in a 2-week time period, so we group them together starting from Halloween
 # Note that case numbers following Thanksgiving may not be fully updated by the time of the presentation
 holidays <- c("Easter", "Memorial Day", "Independence Day", "Labor Day",  "Haloween", "Thanksgiving")
 dates <- c("2020-04-12", "2020-05-25","2020-07-04", "2020-09-07",  "2020-10-31", "2020-11-26")
@@ -133,27 +133,8 @@ Overview ...
 - Clustering
 
 ```{r}
-# Remove Outliers (remove if outliers are wanted)
-#cases <- combined_data$Cases
-#cases_Q1 <- quantile(cases, 0.25)
-#cases_Q3 <- quantile(cases, 0.75)
-#cases_IQR <- IQR(cases)
-# adjust 1.5 to 3 to remove only extreme outliers
-#combined_data_no_out <- subset(combined_data, cases> (cases_Q1 - 1.5*cases_IQR) & cases< (cases_Q3 + 1.5*cases_IQR))
-
-# Grab data from sets (change combined_data_no_out to combined_data to use set with outliers)
-#cases <- combined_data_no_out$Cases
-#percent_gop <- combined_data_no_out$per_gop
-#percent_dem <- combined_data_no_out$per_dem
-
-# Plot the scatterplots (seperately, they appear too squished if together)
-#plot(percent_gop, cases, col = "red", xlab = "Percentage of Population Voting Republican", ylab = "Number of Cases")
-#plot(percent_dem, cases, col = "blue", xlab = "Percentage of Population Voting Democrat", ylab = "Number of Cases")
-
-
-
-##correction for plots USE THIS INSTEAD delete above stuff when data is corrected and you're sure this works
-combined_data <- transform(combined_data, cases_per_pop = Cases / as.integer(Population))
+#normalize cases by dividing by the population of each county
+combined_data <- transform(combined_data, cases_per_pop = as.integer(Cases) / as.integer(Population))
 cases_per_pop <- combined_data$cases_per_pop
 percent_gop <- combined_data$per_gop
 percent_dem <- combined_data$per_dem
@@ -161,11 +142,16 @@ percent_dem <- combined_data$per_dem
 
 #all data should be between 0 and 1, make sure it is
 #if there are random outliers and data is correct!! add ylim=c(0,1) to both graphs
+gop_vs_cases <- lm(cases_per_pop ~ percent_gop)
+summary(gop_vs_cases) #use this to check p value!!
 plot(percent_gop, cases_per_pop, col = "red", xlab = "Percentage of Population Voting Republican", ylab = "Cases as Percent of Population")
-abline(lm(cases_per_pop ~ percent_gop), col ="blue")
+abline(gop_vs_cases, col ="blue")
 
+
+dem_vs_cases <- lm(cases_per_pop ~ percent_dem)
+summary(dem_vs_cases) #use this to check p value!!
 plot(percent_dem, cases_per_pop, col = "blue", xlab = "Percentage of Population Voting Democrat", ylab = "Cases as Percent of Population")
-abline(lm(cases_per_pop ~ percent_dem), col = "red")
+abline(dem_vs_cases, col = "red")
 
 # correlation values between percent gop, dem and cases/pop
 final = data.frame("cases.pop" = cases_per_pop, "pecent.dem" = percent_dem, "percent.gop" = percent_gop)
