@@ -49,7 +49,7 @@ First we will create a graph of the new cases each day in the US.
 
 # first get a list of just the total cases each day
 cases <- timeline %>% select(seq(12, length(timeline)))
-totals <- cases %>% summarize_at(vars(2:length(cases)), sum)
+totals <- cases %>% summarize_at(vars(41:length(cases)), sum)
 total_list <- data.matrix(totals)
 
 # convert from total cases to new cases
@@ -57,7 +57,7 @@ new_cases <- c()
 for (i in seq(2, length(total_list))) {
   new_cases <- c(new_cases, (total_list[i] - total_list[i-1]))
 }
-plot(new_cases, type="l", main="Daily New Covid-19 Cases in the US", xlab = "Days since January 22, 2020", ylab = "New Cases")
+plot(new_cases, type="l", main="Daily New Covid-19 Cases in the US", xlab = "Days since March 1, 2020", ylab = "New Cases")
 
 ```
 
@@ -78,16 +78,16 @@ for (i in seq(8, length(new_cases) - 7)) {
   rate_of_change <- c(rate_of_change, sum(new_cases[(i):(i+7)]) - sum(new_cases[(i-7):(i)]))
 }
 
-# since i started at 8, the new graph starts at January 29 instead of January 22.
-start_date <- "2020-01-29"
+# since i started at 8, the new graph starts at March 8 instead of March 1.
+start_date <- "2020-03-08"
 
-plot(rate_of_change, type="l", main = "Change in weekly total of US Covid-19 Cases", xlab = "Days Since January 29, 2020", ylab = "Change in Weekly Total Cases")
+plot(rate_of_change, type="l", main = "Change in weekly total of US Covid-19 Cases", xlab = "Days Since March 8, 2020", ylab = "Change in Weekly Total Cases")
 abline(h=0)
 
 # create A line and label for each holiday
 # Halloween, election day, and veterans day all occur in a 2-week time period, so we group them together starting from Halloween
 # Note that case numbers following Thanksgiving may not be fully updated by the time of the presentation
-holidays <- c("Easter", "Memorial Day", "Independence Day", "Labor Day",  "Haloween", "Thanksgiving")
+holidays <- c("Easter", "Memorial Day", "Independence Day", "Labor Day",  "Halloween", "Thanksgiving")
 dates <- c("2020-04-12", "2020-05-25","2020-07-04", "2020-09-07",  "2020-10-31", "2020-11-26")
 height <- 200000
 for (i in seq(length(dates))) {
@@ -105,8 +105,7 @@ for (i in seq(length(dates))) {
 # need to start off with a date to get started, will remove after loop
 zeroes <- as.Date(start_date)
 dates <- seq(from=as.Date(start_date), by="day", length.out=length(totals))
-# ignore the first 40 days, we are not interested in these
-for (i in seq(40, length(rate_of_change))) {
+for (i in seq(2, length(rate_of_change))) {
   if (rate_of_change[i] > 0 && rate_of_change[i-1] < 0) {
     zeroes <- c(zeroes, dates[i])
   }
@@ -114,10 +113,11 @@ for (i in seq(40, length(rate_of_change))) {
 # remove the starting date
 zeroes <- zeroes[2:length(zeroes)]
 
-# plot lines at the dates on which the rate of change became positive
-for (i in seq(length(zeroes))) {
-  abline(v=zeroes[i]-as.Date(start_date))
-  
+# plot points for the zeroes
+zeroes <- zeroes - as.Date(start_date)
+for (z in zeroes) {
+  points(z, y=0, lwd = 5)
+  print(as.numeric(z))
 }
 
 ```
