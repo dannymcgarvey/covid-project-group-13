@@ -65,7 +65,7 @@ Now Let's take a look at the rate of change of this graph to see where the sprea
 
 To smooth the plot out, we will measure the rate of change as the difference between the total cases for the seven days after a given date and the total cases for the seven days before this date.
 
-Black lines are dates on which the weekly total cases started increasing
+Black points are dates on which the weekly total cases started increasing
 
 Red lines are labeled with specific holidays
 
