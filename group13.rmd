@@ -1,5 +1,6 @@
 ---
 title: "Covid Project Group 13"
+author: "Adeyinka Telli, Anna Tufail, Daniel McGarvey, Dhvani Patel, Eric Xu, Francesca Bruce, Joshua Brunk, Lauren Brown, Martin Blurton-Jones, Noah Anderson, Ramandeep Singh, Rung-Chian Lo, Suraj Narang, Zhenxiang Xu"
 output:
   html_document:
     number_sections: yes
@@ -11,14 +12,6 @@ output:
 ```{r setup, include=FALSE}
 
 library(dplyr)
-library(ggplot2)
-library(tidyverse)
-library(janitor)
-library(gganimate)
-library(gifski)
-library(png)
-library(ggrepel)
-library(scales)
 library(RCurl)
 
 combined_data = read.csv(file = "combinedData.csv")
@@ -38,8 +31,6 @@ Our group chose to analyze two different trends in the data from JHU's Covid Dat
 2. For our second hypothesis we wanted to analyze how a region's political affiliation impacted an individual's likelihood to have contracted or been exposed to coronavirus.
 
 ## Important Days and Case Increases
-
-Overview ...
 
 Do certain Holiday celebrations line up with increased rates of spread of Covid-19?
 
@@ -65,9 +56,9 @@ Now Let's take a look at the rate of change of this graph to see where the sprea
 
 To smooth the plot out, we will measure the rate of change as the difference between the total cases for the seven days after a given date and the total cases for the seven days before this date.
 
-Black points are dates on which the weekly total cases started increasing
+Black points are dates on which the weekly total cases started increasing.
 
-Red lines are labeled with specific holidays
+Red lines are labeled with specific holidays.
 
 ```{r}
 # we can also plot this graph's derivative to see where the number of new cases began increasing
@@ -117,7 +108,6 @@ zeroes <- zeroes[2:length(zeroes)]
 zeroes <- zeroes - as.Date(start_date)
 for (z in zeroes) {
   points(z, y=0, lwd = 5)
-  print(as.numeric(z))
 }
 
 ```
@@ -141,41 +131,36 @@ Overview ...
 ```{r}
 #normalize cases by dividing by the population of each county
 combined_data <- transform(combined_data, cases_per_pop = as.integer(Cases) / as.integer(Population))
-#put each piece of data into its own variable so it's easier to access
 cases_per_pop <- combined_data$cases_per_pop
 percent_gop <- combined_data$per_gop
 percent_dem <- combined_data$per_dem
 
 
-gop_vs_cases <- lm(cases_per_pop ~ percent_gop) #use lm to find linear regression for cases_per_pop vs percent_gop 
-summary(gop_vs_cases) #use this to check p value, degrees of freedom, etc. can determine statistical significance from this. 
+#all data should be between 0 and 1, make sure it is
+#if there are random outliers and data is correct!! add ylim=c(0,1) to both graphs
+gop_vs_cases <- lm(cases_per_pop ~ percent_gop)
+summary(gop_vs_cases) #use this to check p value!!
+plot(percent_gop, cases_per_pop, col = "red", xlab = "Percentage of Population Voting Republican", ylab = "Cases as Percent of Population")
+abline(gop_vs_cases, col ="blue")
 
-#plot the percentage of cases in each county vs that county's republican leaning 
-#since normalized cases is in percentage of the population that's had a case, the y axis should be between 0 and 1 (or below 1)
-plot(percent_gop, cases_per_pop, col = "red", xlab = "Percentage of Population Voting Republican", ylab = "Cases as Percent of Population")  
-abline(gop_vs_cases, col ="blue") #mark the linear regression line on the graph
 
-
-dem_vs_cases <- lm(cases_per_pop ~ percent_dem) #use lm to find linear regression for cases_per_pop vs percent_gop 
-summary(dem_vs_cases) #use this to check p value, degrees of freedom, etc. can determine statistical significance from this. 
-
-#plot the percentage of cases in each county vs that county's democratic leaning 
-#since normalized cases is in percentage of the population that's had a case, the y axis should be between 0 and 1 (or below 1)
-#this graph should be the reverse of the above graph. just making it to show that it's the reverse, and to mark the correlation between democratic counties vs infection rate as opposed to republican counties vs infection rate
+dem_vs_cases <- lm(cases_per_pop ~ percent_dem)
+summary(dem_vs_cases) #use this to check p value!!
 plot(percent_dem, cases_per_pop, col = "blue", xlab = "Percentage of Population Voting Democrat", ylab = "Cases as Percent of Population")
-abline(dem_vs_cases, col = "red") #mark the linear regression line on the graph
+abline(dem_vs_cases, col = "red")
 
-# linear correlation values between percent gop, dem and cases/pop
+# correlation values between percent gop, dem and cases/pop
 final = data.frame("cases.pop" = cases_per_pop, "pecent.dem" = percent_dem, "percent.gop" = percent_gop)
 
 cor(final, use = "complete.obs")
 
 ```
 
-Based on the R-squared values alone, it would look like there is significant
-correlation between these variables. However, the slope of this linear relationship
-is very shallow, so this is not a strong correlation. Additionally, we can see
-a large number of outliers from the linear relationship for counties with
-a high proportion of Republican voters, which may have contributed to this slope.
-It is possible there are other variables affecting this relationship rather than
-a direct correlation between political affiliation and proportion of covid cases.
+Based on the R-squared values, it looks like there is not a strong relationship
+between these variables. We can confirm from looking at the scatterplot that 
+the majority of data points lie in approximately the same range regardless of 
+party affiliation. However, there is a noticable number of outliers in proportion
+of cases for the counties that had a high percentage of Republican voters.
+These outliers may account for the slight slope in the line of best fit for
+the scatterplot. There may be other variables besides political affiliation that
+would account for these extreme cases.
