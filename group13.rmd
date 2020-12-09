@@ -122,7 +122,13 @@ for (z in zeroes) {
 
 ```
 
-Key takeaways
+Looking at the change in weekly cases, there are a few holidays such as Memorial Day
+and Labor Day which seem to be followed by an increased rate of spread. However,
+other days such as Easter and Independence Day saw a minimal change or even a decrease
+in the rate of spread. Also interesting to note is the dip just before Thanksgiving,
+which may reflect a change in testing than a change in actual cases. The Holidays do
+seem to line up with interesting points on the graph, but they are not necessarily
+the cause of these changes.
 
 ## Political Affilitation and Likelihood of Contracting Coronavirus
 
@@ -160,9 +166,10 @@ cor(final, use = "complete.obs")
 
 ```
 
-Key takeaways
-
-## References
-
-Source out all our data
-
+Based on the R-squared values alone, it would look like there is significant
+correlation between these variables. However, the slope of this linear relationship
+is very shallow, so this is not a strong correlation. Additionally, we can see
+a large number of outliers from the linear relationship for counties with
+a high proportion of Republican voters, which may have contributed to this slope.
+It is possible there are other variables affecting this relationship rather than
+a direct correlation between political affiliation and proportion of covid cases.
