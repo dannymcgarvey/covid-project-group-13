@@ -1,6 +1,6 @@
 ---
 title: "Covid Project Group 13"
-author: "Adeyinka Telli, Anna Tufail, Daniel McGarvey, Dhvani Patel, Eric Xu, Francesca Bruce, Joshua Brunk, Lauren Brown, Martin Blurton-Jones, Noah Anderson, Ramandeep Singh, Rung-Chian Lo, Suraj Narang"
+author: "Adeyinka Telli, Anna Tufail, Daniel McGarvey, Dhvani Patel, Eric Xu, Francesca Bruce, Joshua Brunk, Lauren Brown, Martin Blurton-Jones, Noah Anderson, Ramandeep Singh, Rung-Chian Lo, Suraj Narang, Zhenxiang Xu"
 output:
   html_document:
     number_sections: yes
@@ -133,25 +133,31 @@ a summary of the comparison of cases to political affiliation.
 ```{r}
 #normalize cases by dividing by the population of each county
 combined_data <- transform(combined_data, cases_per_pop = as.integer(Cases) / as.integer(Population))
+#put each piece of data into its own variable so it's easier to access
 cases_per_pop <- combined_data$cases_per_pop
 percent_gop <- combined_data$per_gop
 percent_dem <- combined_data$per_dem
 
 
-#all data should be between 0 and 1, make sure it is
-#if there are random outliers and data is correct!! add ylim=c(0,1) to both graphs
-gop_vs_cases <- lm(cases_per_pop ~ percent_gop)
-summary(gop_vs_cases) #use this to check p value!!
-plot(percent_gop, cases_per_pop, col = "red", xlab = "Percentage of Population Voting Republican", ylab = "Cases as Percent of Population")
-abline(gop_vs_cases, col ="blue")
+gop_vs_cases <- lm(cases_per_pop ~ percent_gop) #use lm to find linear regression for cases_per_pop vs percent_gop 
+summary(gop_vs_cases) #use this to check p value, degrees of freedom, etc. can determine statistical significance from this. 
+
+#plot the percentage of cases in each county vs that county's republican leaning 
+#since normalized cases is in percentage of the population that's had a case, the y axis should be between 0 and 1 (or below 1)
+plot(percent_gop, cases_per_pop, col = "red", xlab = "Percentage of Population Voting Republican", ylab = "Cases as Percent of Population")  
+abline(gop_vs_cases, col ="blue") #mark the linear regression line on the graph
 
 
-dem_vs_cases <- lm(cases_per_pop ~ percent_dem)
-summary(dem_vs_cases) #use this to check p value!!
+dem_vs_cases <- lm(cases_per_pop ~ percent_dem) #use lm to find linear regression for cases_per_pop vs percent_gop 
+summary(dem_vs_cases) #use this to check p value, degrees of freedom, etc. can determine statistical significance from this. 
+
+#plot the percentage of cases in each county vs that county's democratic leaning 
+#since normalized cases is in percentage of the population that's had a case, the y axis should be between 0 and 1 (or below 1)
+#this graph should be the reverse of the above graph. just making it to show that it's the reverse, and to mark the correlation between democratic counties vs infection rate as opposed to republican counties vs infection rate
 plot(percent_dem, cases_per_pop, col = "blue", xlab = "Percentage of Population Voting Democrat", ylab = "Cases as Percent of Population")
-abline(dem_vs_cases, col = "red")
+abline(dem_vs_cases, col = "red") #mark the linear regression line on the graph
 
-# correlation values between percent gop, dem and cases/pop
+# linear correlation values between percent gop, dem and cases/pop
 final = data.frame("cases.pop" = cases_per_pop, "pecent.dem" = percent_dem, "percent.gop" = percent_gop)
 
 cor(final, use = "complete.obs")
