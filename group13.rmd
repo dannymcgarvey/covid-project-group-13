@@ -1,6 +1,6 @@
 ---
 title: "Covid Project Group 13"
-author: "Adeyinka Telli, Anna Tufail, Daniel McGarvey, Dhvani Patel, Eric Xu, Francesca Bruce, Joshua Brunk, Lauren Brown, Martin Blurton-Jones, Noah Anderson, Ramandeep Singh, Rung-Chian Lo, Suraj Narang, Zhenxiang Xu"
+author: "Adeyinka Telli, Anna Tufail, Daniel McGarvey, Dhvani Patel, Eric Xu, Francesca Bruce, Joshua Brunk, Lauren Brown, Martin Blurton-Jones, Noah Anderson, Ramandeep Singh, Rung-Chian Lo, Suraj Narang"
 output:
   html_document:
     number_sections: yes
@@ -22,7 +22,7 @@ timeline <- read.csv(text = getURL(
   ))
 ```
 
-### Group 13's Goals
+## Group 13's Goals
 
 Our group chose to analyze two different trends in the data from JHU's Covid Dataset, both trying to evaluate correlation, but one looking at data over time, and the other as a summary to date.
 
@@ -30,7 +30,7 @@ Our group chose to analyze two different trends in the data from JHU's Covid Dat
 
 2. For our second hypothesis we wanted to analyze how a region's political affiliation impacted an individual's likelihood to have contracted or been exposed to coronavirus.
 
-## Important Days and Case Increases
+# Important Days and Case Increases
 
 Do certain Holiday celebrations line up with increased rates of spread of Covid-19?
 
@@ -120,13 +120,15 @@ which may reflect a change in testing than a change in actual cases. The Holiday
 seem to line up with interesting points on the graph, but they are not necessarily
 the cause of these changes.
 
-## Political Affilitation and Likelihood of Contracting Coronavirus
+# Political Affilitation and Likelihood of Contracting Coronavirus
 
-Overview ...
+To evaluate the second hypothesis we took recent polling data from the 2020 election
+and compared it to the reported cases as well as the population of the county.
 
-- Scatter Plot
-- Linear Regression
-- Clustering
+First we found a percentage of cases in respect to the population. Then we used
+the polling data to create a linear model comparing the political affiliation of
+a region to our normalize cases in respect to the population. Finally we produced 
+a summary of the comparison of cases to political affiliation.
 
 ```{r}
 #normalize cases by dividing by the population of each county
@@ -159,8 +161,19 @@ cor(final, use = "complete.obs")
 Based on the R-squared values, it looks like there is not a strong relationship
 between these variables. We can confirm from looking at the scatterplot that 
 the majority of data points lie in approximately the same range regardless of 
-party affiliation. However, there is a noticable number of outliers in proportion
+party affiliation. However, there is a noticeable number of outliers in proportion
 of cases for the counties that had a high percentage of Republican voters.
 These outliers may account for the slight slope in the line of best fit for
 the scatterplot. There may be other variables besides political affiliation that
 would account for these extreme cases.
+
+# Sources
+
+* [**JHU's Covid Data**](https://github.com/CSSEGISandData/COVID-19)
+* [**Election Data**](https://github.com/tonmcg/US_County_Level_Election_Results_08-20)
+* [**Population Data**](https://www.census.gov/data/tables/time-series/demo/popest/2010s-counties-total.html#par_textimage_242301767)
+
+___
+
+* [**Project GitHub**](https://github.com/dannymcgarvey/covid-project-group-13)
+* [**Our Presentation**](https://docs.google.com/presentation/d/1YDWNrxQ9IbE92SMmyTBhTljRoaz6kIm1GUD9jmRffzk/edit#slide=id.p)
