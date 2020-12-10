@@ -1,6 +1,6 @@
 ---
 title: "Covid Project Group 13"
-author: "Adeyinka Telli, Anna Tufail, Daniel McGarvey, Dhvani Patel, Eric Xu, Francesca Bruce, Joshua Brunk, Lauren Brown, Martin Blurton-Jones, Noah Anderson, Ramandeep Singh, Rung-Chian Lo, Suraj Narang, Zhenxiang Xu"
+author: "Adeyinka Telli, Anna Tufail, Daniel McGarvey, Dhvani Patel, Eric Xu, Francesca Bruce, Joshua Brunk, Lauren Brown, Martin Blurton-Jones, Noah Anderson, Ramandeep Singh, Rung-Chian Lo, Suraj Narang"
 output:
   html_document:
     number_sections: yes
